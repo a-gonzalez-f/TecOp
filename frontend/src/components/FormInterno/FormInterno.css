@@ -1,0 +1,8 @@
+#formInterno {
+  width: 20vw;
+  align-items: center;
+}
+
+#formInterno .submitButton {
+  margin-top: 2rem;
+}

@@ -1,0 +1,119 @@
+h1 {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2rem;
+}
+
+#formRadio {
+  gap: 0;
+}
+
+input,
+select {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  margin-top: 5px;
+}
+
+#formRadio > section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+#formRadio > h1 {
+  width: 100%;
+  text-align: center;
+}
+
+section > div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.integridad > div {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#formRadio > section > div > label {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.stateButton {
+  display: flex;
+  gap: 10px;
+  width: 50px;
+  justify-content: center;
+  transition: all 0.5s ease;
+  box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.stateButton.on {
+  background-color: rgba(38, 194, 38, 0.2);
+  color: #5aff81;
+}
+.stateButton.off {
+  background-color: rgba(194, 38, 38, 0.2);
+  color: #c22626;
+}
+
+span.icon {
+  transition: all 0.3s ease-in-out;
+}
+
+span.icon.true {
+  fill: #5aff81;
+  transform: rotate(360deg);
+}
+span.icon.false {
+  fill: #c22626;
+}
+
+span.icon {
+  display: flex;
+}
+
+.comentarioDiv {
+  grid-column: span 4;
+}
+
+#comentario {
+  width: 70%;
+  resize: none;
+  height: 4rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
+
+#deleteRadio {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#deleteRadio > svg {
+  width: 22px;
+}

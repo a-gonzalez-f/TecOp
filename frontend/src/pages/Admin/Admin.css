@@ -1,0 +1,96 @@
+.autorizaciones h1,
+.autorizaciones h2 {
+  text-align: left;
+  font-weight: 400;
+}
+
+.autorizaciones {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+#formAutorizar {
+  padding: 0;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+#formAutorizar .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+#formAutorizar label {
+  gap: 10px;
+}
+
+#addEmailBtn {
+  background-color: #5aff8170;
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease;
+}
+#addEmailBtn:hover {
+  background-color: #5aff81;
+}
+
+.autorizadosTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.autorizadosTable th,
+.autorizadosTable td {
+  border-bottom: 1px solid #444;
+  padding: 12px;
+  text-align: center;
+}
+
+.autorizadosTable th {
+  background-color: #111;
+}
+
+.autorizadosTable tr {
+  transition: all 0.2s ease;
+}
+.autorizadosTable tr:hover {
+  background-color: #111;
+}
+
+.autorizadosTable .actionButton {
+  background-color: transparent;
+  display: flex;
+  margin: 0 auto;
+}
+
+.autorizadosTable .actionButton > svg {
+  transition: fill 0.2s ease;
+}
+
+.autorizadosTable .actionButton:hover > svg {
+  fill: #c70000 !important;
+}
+
+.autorizadosTable td:last-child,
+.autorizadosTable td:nth-last-child(2) {
+  width: 10%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

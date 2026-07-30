@@ -1,0 +1,299 @@
+/* colores empresa 
+verde: rgb(90, 255, 129)
+purpura: rgb(60, 35, 115)
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #242424;
+  background-image: radial-gradient(
+    circle,
+    rgba(60, 35, 115, 0.2) 0%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.page {
+  margin: 0 5vw;
+  margin-top: 1rem;
+}
+
+.bg-A {
+  background-color: rgb(27, 147, 194, 0.25) !important;
+}
+.bg-B {
+  background-color: rgb(207, 18, 34, 0.25) !important;
+}
+.bg-C {
+  background-color: rgb(1, 90, 155, 0.25) !important;
+}
+.bg-D {
+  background-color: rgb(5, 115, 95, 0.25) !important;
+}
+.bg-E {
+  background-color: rgb(102, 19, 113, 0.25) !important;
+}
+.bg-H {
+  background-color: rgba(240, 205, 31, 0.25) !important;
+}
+.bg-P {
+  background-color: rgba(196, 140, 21, 0.25) !important;
+}
+
+.bgi-A {
+  background-color: oklch(42.347% 0.11972 231.278) !important;
+}
+.bgi-B {
+  background-color: oklch(34.303% 0.21351 25.773) !important;
+}
+.bgi-C {
+  background-color: oklch(25.922% 0.12757 249.432) !important;
+}
+.bgi-D {
+  background-color: oklch(29.65% 0.09253 174.86) !important;
+}
+.bgi-E {
+  background-color: oklch(27.637% 0.15932 322.607) !important;
+}
+.bgi-H {
+  background-color: oklab(55.312% -0.01798 0.1691) !important;
+}
+.bgi-P {
+  background-color: oklch(47.791% 0.13599 79.043) !important;
+}
+
+.color-A {
+  color: rgb(27, 147, 194, 0.9) !important;
+}
+.color-B {
+  color: rgb(207, 18, 34, 0.9) !important;
+}
+.color-C {
+  color: rgb(1, 90, 155, 0.9) !important;
+}
+.color-D {
+  color: rgb(5, 115, 95, 0.9) !important;
+}
+.color-E {
+  color: rgb(102, 19, 113, 0.9) !important;
+}
+.color-H {
+  color: rgba(240, 205, 31, 0.9) !important;
+}
+.color-P {
+  color: rgba(196, 140, 21, 0.9) !important;
+}
+
+.funcionandoColor {
+  color: rgb(90, 255, 129) !important;
+}
+.desconectadaColor {
+  color: #777 !important;
+}
+.alertaColor {
+  color: rgb(255, 205, 23) !important;
+}
+.fsColor,
+.errorColor {
+  color: rgb(199, 10, 10) !important;
+}
+
+.funcionandoBg {
+  background-color: rgb(90, 255, 129) !important;
+}
+.desconectadaBg {
+  background-color: #777 !important;
+}
+.alertaBg {
+  background-color: rgb(255, 205, 23) !important;
+}
+.fsBg,
+.errorBg {
+  background-color: rgb(199, 10, 10);
+}
+
+.submitButton {
+  background-color: rgba(90, 255, 129, 0.4);
+  padding: 5px 10px;
+  margin: 0 auto;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  color: #222;
+}
+
+.submitButton:hover {
+  background-color: rgba(90, 255, 129, 0.7);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.submitButton:active {
+  box-shadow: inset 2px 2px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+select,
+input {
+  box-shadow:
+    7px 7px 20px #131313,
+    -7px -7px 20px #313131;
+}
+
+label {
+  z-index: 1;
+}
+
+.addBtn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5aff81;
+  fill: black;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+  box-shadow:
+    10px 10px 20px #0e0e0e,
+    -10px -10px 20px #3a3a3a,
+    inset 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  border: 3px solid black;
+}
+
+.addBtn:hover {
+  opacity: 1;
+}
+.addBtn:active {
+  transform: scale(0.95);
+  box-shadow:
+    2px 2px 2px rgba(0, 0, 0, 0.6),
+    inset 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+input,
+textarea {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.deleteBtn {
+  background-color: transparent;
+  fill: rgb(237, 0, 0);
+  opacity: 0.3;
+  transition: opacity 0.1s ease;
+}
+
+.deleteBtn:hover {
+  opacity: 1;
+}
+
+.attentionBorder {
+  border: 2px solid rgba(218, 200, 0, 0.5);
+}
+
+.pantallaCarga {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  background-color: rgba(19, 19, 19, 0.2);
+  backdrop-filter: blur(2px);
+  display: flex;
+}
+
+.loadingScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loading > svg {
+  animation: rotateAndPulse 1s linear infinite;
+  width: 10%;
+  height: 10%;
+  will-change: transform, opacity;
+  max-height: 50px;
+  max-width: 50px;
+  min-height: 15px;
+  min-width: 15px;
+}
+
+@keyframes rotateAndPulse {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+.chevronBack {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.chevronBack > svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.separador {
+  height: 20px;
+  width: 0.1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.helper {
+  font-size: 11px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+}

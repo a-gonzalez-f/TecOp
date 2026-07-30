@@ -1,0 +1,986 @@
+LINEA,REF1,REF2,INTERNO
+ADMINISTRACIÓN,Daniel Branspiguel | Asistente de Gcia.,Gerencia,6031
+ADMINISTRACIÓN,Sala de reuniones,Gerencia,6006
+ADMINISTRACIÓN,Fax de Gerencia General,Gerencia,6014
+ADMINISTRACIÓN,Monica Flores | Asistente de Gcia.,Gerencia General Operativa de Metrovías,6186
+ADMINISTRACIÓN,Gerencia Gral. Operativa,Gerencia General Operativa de Metrovías,6191
+ADMINISTRACIÓN,Sala de Reuniones,Gerencia General Operativa de Metrovías,6188
+ADMINISTRACIÓN,Gaston Pereyra,S.I.A.U.,6390
+ADMINISTRACIÓN,Ornella Fontana,S.I.A.U.,6392
+ADMINISTRACIÓN,Mariana Indolfi,S.I.A.U.,6393
+ADMINISTRACIÓN,Santiago Peña,S.I.A.U.,6397
+ADMINISTRACIÓN,Facundo Botto,Gerencia de Logística,6163
+ADMINISTRACIÓN,Ma. Eugenia Randazzo | Asistente de Gcia.,Gerencia de Logística,6136
+ADMINISTRACIÓN,Guillermo Suárez,Compras,6155
+ADMINISTRACIÓN,Gabriel Romero,Compras,6173
+ADMINISTRACIÓN,Alan Gauto,Compras,6152
+ADMINISTRACIÓN,Fernando Vallejos,Compras,6154
+ADMINISTRACIÓN,Leiza Olivera,Compras,6157
+ADMINISTRACIÓN,Fabricio Sierra,Compras,6158
+ADMINISTRACIÓN,Marina Matejka,Compras,6159
+ADMINISTRACIÓN,Erica Fiscina,Compras,6160
+ADMINISTRACIÓN,Hernan Schweitzer,Compras,6162
+ADMINISTRACIÓN,Matías Barrera,Compras,6165
+ADMINISTRACIÓN,Federico Kairuz,Compras,6166
+ADMINISTRACIÓN,Gabriel Coutone,Compras,6167
+ADMINISTRACIÓN,David Ardaiz,Compras,6171
+ADMINISTRACIÓN,Fax compras,Compras,6174
+ADMINISTRACIÓN,Roy Pincen Cornejo,Compras,6177
+ADMINISTRACIÓN,Sala de Reuniones Compras,Compras,6261
+ADMINISTRACIÓN,Gustavo Arias,Catalogación,6168
+ADMINISTRACIÓN,Florencia Peiteado,Catalogación,6169
+ADMINISTRACIÓN,Martín Skoczdopole,Catalogación,6172
+ADMINISTRACIÓN,Guillermo Rodriguez,Intendencia,6270
+ADMINISTRACIÓN,Taller Mantenimiento,Intendencia,6251
+ADMINISTRACIÓN,Ingeniería Ferroviaria,Ingeniería Material Rodante,6135
+ADMINISTRACIÓN,Ingeniería Material Rodante,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6045
+ADMINISTRACIÓN,Coord. de Ing. Mat. Rodante,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6146
+ADMINISTRACIÓN,Héctor Guzmán | Asesoría,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6153
+ADMINISTRACIÓN,Coord. de Ing. Mat. Rodante,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6243
+ADMINISTRACIÓN,Sebastián Lancone | Emmanuel Verón,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6245
+ADMINISTRACIÓN,Hernán Montero,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6271
+ADMINISTRACIÓN,Guillermo Baez,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6272
+ADMINISTRACIÓN,Julio González,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6275
+ADMINISTRACIÓN,Guido Ambrosio,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6276
+ADMINISTRACIÓN,Martín Gianni | Ezequiel Tamanaha,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6277
+ADMINISTRACIÓN,Pablo Balbín Martin | Mariano Bussolo,Gerencia Ingeniería de  Mantenimiento de Material Rodante,6278
+ADMINISTRACIÓN,Pablo De Suto | Administración,Gerencia de Administración y Finanzas,6109
+ADMINISTRACIÓN,Froilan Diaz | Finanzas,Gerencia de Administración y Finanzas,6117
+ADMINISTRACIÓN,Silvia Brienza,Gerencia de Administración y Finanzas,6202
+ADMINISTRACIÓN,Secretaría General | María E. Ramos,Gerencia de Administración y Finanzas,6090
+ADMINISTRACIÓN,Centro de fotocopiado,Gerencia de Administración y Finanzas,6091
+ADMINISTRACIÓN,Diego Díaz,Gerencia de Administración y Finanzas,6092
+ADMINISTRACIÓN,Oscar Loredo,Gerencia de Administración y Finanzas,6352
+ADMINISTRACIÓN,Fabian Navarro,Gerencia de Administración y Finanzas,6347
+ADMINISTRACIÓN,Sala de Reuniones,Gerencia de Administración y Finanzas,6108
+ADMINISTRACIÓN,Sebastian Spartano,Presupuesto,6105
+ADMINISTRACIÓN,Pablo Arrayago,Presupuesto,6114
+ADMINISTRACIÓN,María Fernanda García,Presupuesto,6120
+ADMINISTRACIÓN,Emanuel Barbera,Presupuesto,6126
+ADMINISTRACIÓN,Jorgelina Paparella,Presupuesto,6127
+ADMINISTRACIÓN,Nicolás Ciffolilli,Presupuesto,6142
+ADMINISTRACIÓN,Federico Raffaele,Tesoreria,6179
+ADMINISTRACIÓN,Juan Pedro Del Rey,Tesoreria,6161
+ADMINISTRACIÓN,Federico Noval,Tesoreria,6164
+ADMINISTRACIÓN,Donato De Estefano,Tesoreria,6176
+ADMINISTRACIÓN,Adrian Plazibat,Tesoreria,6238
+ADMINISTRACIÓN,Emiliano Lo Bruno,Tesoreria,6123
+ADMINISTRACIÓN,Adrián González,Cuentas a pagar,6112
+ADMINISTRACIÓN,Jorge Escandar,Cuentas a pagar,6104
+ADMINISTRACIÓN,Nicolás Ponce,Cuentas a pagar,6121
+ADMINISTRACIÓN,Julieta Santa Marinha | Karina Pariani,Cuentas a pagar,6115
+ADMINISTRACIÓN,Diego Perantuono,Cuentas a pagar,6111
+ADMINISTRACIÓN,Facundo  Gimenez,Cuentas a pagar,6107
+ADMINISTRACIÓN,Augusto Marón,Cuentas a pagar,6118
+ADMINISTRACIÓN,Mónica Matocq,Impuestos,6110
+ADMINISTRACIÓN,Augusto Villanueva,Impuestos,6103
+ADMINISTRACIÓN,Paola Grandi,Contabilidad,6175
+ADMINISTRACIÓN,Gustavo Da Costa,Contabilidad,6102
+ADMINISTRACIÓN,Claudia Gonzalez Sieira,Contabilidad,6113
+ADMINISTRACIÓN,Fernanda Coraglio,Contabilidad,6180
+ADMINISTRACIÓN,Fabián Navarro,Contabilidad,6347
+ADMINISTRACIÓN,Joaquin Gioffre,Contabilidad,6116
+ADMINISTRACIÓN,Marcos Vaccaro,Contabilidad,6345
+ADMINISTRACIÓN,Jesica Gelmine,Contabilidad,6124
+ADMINISTRACIÓN,María Florencia Severo,Contabilidad,6181
+ADMINISTRACIÓN,María Del Valle Grimaudo,Contabilidad,6017
+ADMINISTRACIÓN,Javier Amendolare,Contabilidad,6119
+ADMINISTRACIÓN,Ivana Jaimez,Contabilidad,6101
+ADMINISTRACIÓN,Ezequiel Salvatierra,Contabilidad,6145
+ADMINISTRACIÓN,Diego Porta,Patrimonio,6071
+ADMINISTRACIÓN,Gustavo Sanchez,Patrimonio,6106
+ADMINISTRACIÓN,Nicolás Arrieta,Patrimonio,6195
+ADMINISTRACIÓN,Alfredo Giacone,Recaudaciones,6130
+ADMINISTRACIÓN,Matías Jalil | Roberto Rodriguez,Recaudaciones,6131
+ADMINISTRACIÓN,Federico Cardarelli | Damina De Rosa,Recaudaciones,6132
+ADMINISTRACIÓN,Fermin Genovese,Recaudaciones,6133
+ADMINISTRACIÓN,Emanuel Varino | Facundo Testatonda,Recaudaciones,6128
+ADMINISTRACIÓN,Esteban Durandeu,Recaudaciones,6129
+ADMINISTRACIÓN,Lisandro Colma,Recaudaciones,6134
+ADMINISTRACIÓN,Héctor Durán,Administración de Personal,6313
+ADMINISTRACIÓN,Matias Albarado,Administración de Personal,6311
+ADMINISTRACIÓN,Claudia Miranda,Administración de Personal,6314
+ADMINISTRACIÓN,Tatiana Wendler,Administración de Personal,6316
+ADMINISTRACIÓN,Juan Manuel Druetta,Administración de Personal,6320
+ADMINISTRACIÓN,Diego Lamanna,Administración de Personal,6306
+ADMINISTRACIÓN,Luciana Di Nunzio,Administración de Personal,6307
+ADMINISTRACIÓN,Ines Lodderhos,Administración de Personal,6308
+ADMINISTRACIÓN,Facundo Chaves,Administración de Personal,6338
+ADMINISTRACIÓN,Ana Gallegos | Asistente de Gcia.,Gerencia Corporativa de Asuntos Legales,6056
+ADMINISTRACIÓN,Fax Asuntos Legales,Gerencia Corporativa de Asuntos Legales,6064
+ADMINISTRACIÓN,Sala de Reuniones,Gerencia Corporativa de Asuntos Legales,6067
+ADMINISTRACIÓN,Asuntos Jurídicos,Gerencia de Asuntos Jurícos,6062
+ADMINISTRACIÓN,Asuntos Jurídicos,Gerencia de Asuntos Jurícos,6087
+ADMINISTRACIÓN,Vanesa Cortese,Siniestros,6061
+ADMINISTRACIÓN,Rafael Llerena,Siniestros,6083
+ADMINISTRACIÓN,Claudia Rua,Juicios Contenciosos,6058
+ADMINISTRACIÓN,Gisela Mori,Juicios Contenciosos,6063
+ADMINISTRACIÓN,Cecilia Cortese,Juicios Contenciosos,6082
+ADMINISTRACIÓN,Stella González,Asuntos Societarios y Corporativos,6060
+ADMINISTRACIÓN,Erica Haase | Asistente de Gcia.,"Gerencia de Planeamiento Estratégico, Control de Gestión y Administración de Contratos",6021
+ADMINISTRACIÓN,Horacio Pesce,"Gerencia de Planeamiento Estratégico, Control de Gestión y Administración de Contratos",6022
+ADMINISTRACIÓN,Jorge Lotz,Control de Gestión,6019
+ADMINISTRACIÓN,Fernando Yamada,Control de Gestión,6080
+ADMINISTRACIÓN,Liliana Vione,Control de Gestión,6399
+ADMINISTRACIÓN,Andres Finkelstein,Control de Gestión,6081
+ADMINISTRACIÓN,Desiree Moroni | Asistente de Gcia.,Gerencia de Administración de Contratos,6040
+ADMINISTRACIÓN,Marcelo Blanco,Gerencia de Administración de Contratos,6034
+ADMINISTRACIÓN,Administración de Contratos,Gerencia de Administración de Contratos,6035
+ADMINISTRACIÓN,Moises Avalos,Gerencia de Administración de Contratos,6041
+ADMINISTRACIÓN,Juan Carlos Margarido,Gerencia de Administración de Contratos,6042
+ADMINISTRACIÓN,Pablo Gerdes,Gerencia de Administración de Contratos,6043
+ADMINISTRACIÓN,Norberto Casartelli,Gerencia de Administración de Contratos,6032
+ADMINISTRACIÓN,Analía Fernandez,Gerencia de Administración de Contratos,6036
+ADMINISTRACIÓN,Silvia Peduto,Gerencia de Administración de Contratos,6038
+ADMINISTRACIÓN,Jorge Tornese,Gerencia de Administración de Contratos,6037
+ADMINISTRACIÓN,María Eugenia Mareso,Gerencia de Administración de Contratos,6151
+ADMINISTRACIÓN,Cristian Romero,Gerencia de Gestión de la Calidad,6044
+ADMINISTRACIÓN,Adriana Sierra,Gerencia de Gestión de la Calidad,6069
+ADMINISTRACIÓN,Andrea Garelli,Gerencia de Gestión de la Calidad,6070
+ADMINISTRACIÓN,Jesús Martinez,Gerencia de Gestión de la Calidad,6074
+ADMINISTRACIÓN,Martín Barreda,Gerencia de Gestión de la Calidad,6075
+ADMINISTRACIÓN,Control interno,Control Interno,6075
+ADMINISTRACIÓN,Paul Lince Patiño,Control Interno,6076
+ADMINISTRACIÓN,Control Interno,Control Interno,6072
+ADMINISTRACIÓN,Verónica Quiroga,Gerencia de Seguridad e Inspecciones,6099
+ADMINISTRACIÓN,Facundo Gola,Jefatura de Coordinación de Inspecciones,6094
+ADMINISTRACIÓN,Diego Losada,Jefatura de Coordinación de Inspecciones,6030
+ADMINISTRACIÓN,Martin Mele,Jefatura de Coordinación de Inspecciones,6078
+ADMINISTRACIÓN,Hernan Labur,Jefatura de Coordinación de Inspecciones,6077
+ADMINISTRACIÓN,Leonardo San Martin,Jefatura de Coordinación de Inspecciones,6241
+ADMINISTRACIÓN,Ma. del Carmen Ganchegui | Asistente de Gcia.,Gerencia de Recursos Humanos,6301
+ADMINISTRACIÓN,Gioia Fortunato,Gerencia de Recursos Humanos,6321
+ADMINISTRACIÓN,Sala de Reuniones,Gerencia de Recursos Humanos,6303
+ADMINISTRACIÓN,Fax Gerencia de Recursos Humanos,Gerencia de Recursos Humanos,6348
+ADMINISTRACIÓN,Patricia Raniolo,Empleo y Organización,6310
+ADMINISTRACIÓN,Ma. Soledad Godoy,Empleo y Organización,6332
+ADMINISTRACIÓN,Carolina Pinto,Empleo y Organización,6335
+ADMINISTRACIÓN,Damian Perelmiter,Empleo y Organización,6329
+ADMINISTRACIÓN,Diego Cimiotto,Empleo y Organización,6324
+ADMINISTRACIÓN,Mariano Barbagallo,Empleo y Organización,6334
+ADMINISTRACIÓN,Patricia Megna,Empleo y Organización,6323
+ADMINISTRACIÓN,Sala de reuniones,Empleo y Organización,6304
+ADMINISTRACIÓN,Gustavo Bressán,Comunicaciones Internas y Beneficios,6328
+ADMINISTRACIÓN,Gonzalo Quereilhac,Comunicaciones Internas y Beneficios,6340
+ADMINISTRACIÓN,Sol Hernández Sterbini,Comunicaciones Internas y Beneficios,6309
+ADMINISTRACIÓN,Romina Aquino,Comunicaciones Internas y Beneficios,6346
+ADMINISTRACIÓN,Luisina Perez,Comunicaciones Internas y Beneficios,6336
+ADMINISTRACIÓN,Paula Barsuk - Pavón,Comunicaciones Internas y Beneficios,6326
+ADMINISTRACIÓN,Comunicaciones Internas y Beneficios,Comunicaciones Internas y Beneficios,6805
+ADMINISTRACIÓN,José Pensado,Procesos de Recursos Humanos,6330
+ADMINISTRACIÓN,Julio Ramirez,Relaciones Laborales,6305
+ADMINISTRACIÓN,Santiago Tropea,Relaciones Laborales,6318
+ADMINISTRACIÓN,Ileana Castria,Capacitación,6302
+ADMINISTRACIÓN,Magdalena Bulacio,Capacitación,6339
+ADMINISTRACIÓN,Hector Marcel - Pavón,Capacitación,5207
+ADMINISTRACIÓN,Andres Pane - Pavón,Capacitación,6319
+ADMINISTRACIÓN,Graciela Flores | Agustina Pintos - Pavón,Capacitación,6385
+ADMINISTRACIÓN,Patricio Wall - Pavón,Capacitación,6344
+ADMINISTRACIÓN,Gisella Garrido - Pavón,Capacitación,5226
+ADMINISTRACIÓN,Marcelo Graziano,Gestión de Recursos Humanos,6380
+ADMINISTRACIÓN,Marcia Solano,Gestión de Recursos Humanos,5221
+ADMINISTRACIÓN,Dario Armirotti,Gestión de Recursos Humanos,6382
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,6331
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,6383
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,6387
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,5224
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,5225
+ADMINISTRACIÓN,RR.HH.,Gestión de Recursos Humanos,5228
+ADMINISTRACIÓN,Gustavo Pennino,Relaciones Laborales Subte,6386
+ADMINISTRACIÓN,Francisco Paz Walther,Relaciones Laborales Subte,5223
+ADMINISTRACIÓN,Jorge Jose Teijeiro,Servicio Médico,5230
+ADMINISTRACIÓN,Federico Loto,Servicio Médico,5229
+ADMINISTRACIÓN,Dora Deluca,Servicio Médico,5231
+ADMINISTRACIÓN,Maximiliano Garbarini,Servicio Médico,5232
+ADMINISTRACIÓN,Enfermería,Servicio Médico,5233
+ADMINISTRACIÓN,Enfermería,Servicio Médico,5238
+ADMINISTRACIÓN,Enfermería,Servicio Médico,5239
+ADMINISTRACIÓN,Enfermería,Servicio Médico,5240
+ADMINISTRACIÓN,Rodolfo Zagert,"Higiene, Seguridad y Medio Ambiente",5211
+ADMINISTRACIÓN,Jorge Troncoso,"Higiene, Seguridad y Medio Ambiente",5210
+ADMINISTRACIÓN,"Higiene, Seguridad y Medio Ambiente","Higiene, Seguridad y Medio Ambiente",5212
+ADMINISTRACIÓN,"Higiene, Seguridad y Medio Ambiente","Higiene, Seguridad y Medio Ambiente",5213
+ADMINISTRACIÓN,"Higiene, Seguridad y Medio Ambiente","Higiene, Seguridad y Medio Ambiente",5214
+ADMINISTRACIÓN,"Higiene, Seguridad y Medio Ambiente","Higiene, Seguridad y Medio Ambiente",5215
+ADMINISTRACIÓN,Natalia Kraiselburd,"Higiene, Seguridad y Medio Ambiente",5216
+ADMINISTRACIÓN,Carina Lavalle,"Higiene, Seguridad y Medio Ambiente",5217
+ADMINISTRACIÓN,Lorena Roldán,Selección y Desarrollo personal de convenio,6384
+ADMINISTRACIÓN,Cristian Gálvez,Selección y Desarrollo personal de convenio,6325
+ADMINISTRACIÓN,Diego De Francesco,Selección y Desarrollo personal de convenio,5222
+ADMINISTRACIÓN,Ma. Angela Moggi,Selección y Desarrollo personal de convenio,6381
+ADMINISTRACIÓN,Ropería SIAU,Operaciones Pavón,5241
+ADMINISTRACIÓN,Samuel Borja,Operaciones Pavón,5251
+ADMINISTRACIÓN,Sup. Señalética,Operaciones Pavón,5253
+ADMINISTRACIÓN,Of. Señalética,Operaciones Pavón,5254
+ADMINISTRACIÓN,Fernando Lavaselli | Ricardo Vassena - SS.GG.,Operaciones Pavón,5280
+ADMINISTRACIÓN,Blanco Gustavo - Jefe de SS.GG.,Operaciones Pavón,5281
+ADMINISTRACIÓN,Administrador SS.GG.,Operaciones Pavón,5282
+ADMINISTRACIÓN,Seguridad,Operaciones Pavón,5291
+ADMINISTRACIÓN,Seguridad Portón,Operaciones Pavón,5292
+ADMINISTRACIÓN,Diana Castillo | Asistente de Gcia.,Gerencia de Comunicaciones y Relaciones Institucionales,6048
+ADMINISTRACIÓN,Gcia. de CC. y RRII.,Gerencia de Comunicaciones y Relaciones Institucionales,6052
+ADMINISTRACIÓN,Kevin Fajardo Palacios,Gerencia de Comunicaciones y Relaciones Institucionales,6184
+ADMINISTRACIÓN,Federico Rossiter,Gerencia de Comunicaciones y Relaciones Institucionales,6053
+ADMINISTRACIÓN,Magalí Zapata,Gerencia de Comunicaciones y Relaciones Institucionales,6047
+ADMINISTRACIÓN,Julián Graziottin,Gerencia de Comunicaciones y Relaciones Institucionales,6046
+ADMINISTRACIÓN,Nicolás Castaño,Gerencia de Comunicaciones y Relaciones Institucionales,6049
+ADMINISTRACIÓN,Johanna Sanabria,Gerencia de Comunicaciones y Relaciones Institucionales,6051
+ADMINISTRACIÓN,Recepción,Gerencia de Comunicaciones y Relaciones Institucionales,6095
+ADMINISTRACIÓN,Operadora,Gerencia de Comunicaciones y Relaciones Institucionales,19
+ADMINISTRACIÓN,Recepción,Gerencia de Comunicaciones y Relaciones Institucionales,6096
+ADMINISTRACIÓN,Recepción,Gerencia de Comunicaciones y Relaciones Institucionales,6097
+ADMINISTRACIÓN,Recepción,Gerencia de Comunicaciones y Relaciones Institucionales,6098
+ADMINISTRACIÓN,Sistemas,Sistemas,6201
+ADMINISTRACIÓN,Miguel García,Sistemas,6203
+ADMINISTRACIÓN,Mesa de Ayuda | Córdoba,Sistemas,6205
+ADMINISTRACIÓN,Sistemas,Sistemas,6206
+ADMINISTRACIÓN,Sala de Reuniones,Sistemas,6207
+ADMINISTRACIÓN,Alejandro Avila,Sistemas,6208
+ADMINISTRACIÓN,Sistemas,Sistemas,6210
+ADMINISTRACIÓN,Sistemas,Sistemas,6211
+ADMINISTRACIÓN,Sistemas,Sistemas,6212
+ADMINISTRACIÓN,Cristian Rejala,Sistemas,6213
+ADMINISTRACIÓN,Sistemas,Sistemas,6214
+ADMINISTRACIÓN,Silvana Galarza,Sistemas,6215
+ADMINISTRACIÓN,Laboratorio Sistemas,Sistemas,6217
+ADMINISTRACIÓN,Analisis Funcional,Sistemas,6219
+ADMINISTRACIÓN,Rodrigo Torres,Sistemas,6220
+ADMINISTRACIÓN,Mesa de ayuda,Sistemas,6221
+ADMINISTRACIÓN,Adrian Brunetti,Sistemas,6223
+ADMINISTRACIÓN,Sala de Server,Sistemas,6227
+ADMINISTRACIÓN,Sistemas,Sistemas,6229
+ADMINISTRACIÓN,Mesa de Ayuda | Buenos Aires,Sistemas,6232
+ADMINISTRACIÓN,Mesa de Ayuda,Sistemas,6233
+ADMINISTRACIÓN,Mesa de Ayuda,Sistemas,6234
+ADMINISTRACIÓN,Sistemas,Sistemas,6235
+ADMINISTRACIÓN,Alfonso Crespo,Sistemas,6240
+ADMINISTRACIÓN,Central telefónica | Leonardo Ermoli,Otros sectores,6555
+ADMINISTRACIÓN,Auditoría Externa,Otros sectores,6178
+ADMINISTRACIÓN,Auditoría Externa,Otros sectores,6341
+ADMINISTRACIÓN,Auditoría Externa,Otros sectores,6342
+ADMINISTRACIÓN,Auditoría Externa,Otros sectores,6343
+ADMINISTRACIÓN,Personal de Limpieza,Otros sectores,6249
+ADMINISTRACIÓN,S.B.A.S.E.,Otros sectores,6269
+ADMINISTRACIÓN,SAME,Otros sectores,1890
+ADMINISTRACIÓN,SAME,Otros sectores,1891
+ADMINISTRACIÓN,Bomberos,Otros sectores,3396
+LINEA A,Boletería Anden Este,Plaza de Mayo,1013
+LINEA A,Boletería Anden Oeste,Plaza de Mayo,1014
+LINEA A,Cabina de Señales,Plaza de Mayo,1480
+LINEA A,Cabina de Señales,Plaza de Mayo,1484
+LINEA A,Cabina de Relés,Plaza de Mayo,1535
+LINEA A,Boletería Anden Norte,Perú,1024
+LINEA A,Boletería Anden Sur,Perú,1023
+LINEA A,Supervisor de Estaciones ,Perú,1475
+LINEA A,Boletería Anden Norte,Piedras,1034
+LINEA A,Boletería Anden Sur / Superv. de Estaciones,Piedras,1033
+LINEA A,C.A.S. (Centro Atención Seguridad),Lima,1393
+LINEA A,Subestación,Lima,1570
+LINEA A,Boletería Anden Norte,Lima,1044
+LINEA A,Boletería Anden Sur,Lima,1043
+LINEA A,Policía Federal,Sáenz Peña,1394
+LINEA A,Boletería Anden Norte,Sáenz Peña,1054
+LINEA A,Boletería Anden Sur,Sáenz Peña,1053
+LINEA A,Comisaria,Congreso,1395
+LINEA A,Boletería Anden Norte,Congreso,1064
+LINEA A,Boletería Anden Sur,Congreso,1063
+LINEA A,Supervisor de Estaciones,Congreso,1471
+LINEA A,Boletería Anden Norte,Pasco,1074
+LINEA A,Boletería Anden Sur,Alberti,1083
+LINEA A,Boletería Anden Sur,Plaza Miserere,1093
+LINEA A,Boletería Anden Nordeste,Plaza Miserere,1094
+LINEA A,Boletería Anden Noroeste,Plaza Miserere,1095
+LINEA A,Jefe Mantenimiento,Plaza Miserere,1331
+LINEA A,Sup. Mant. Estaciones,Plaza Miserere,1332
+LINEA A,Mantenimiento Estaciones,Plaza Miserere,1333
+LINEA A,Mantenimiento Estaciones,Plaza Miserere,1334
+LINEA A,Pañol,Plaza Miserere,1335
+LINEA A,Encargado de Vías,Plaza Miserere,1354
+LINEA A,Vías,Plaza Miserere,1355
+LINEA A,Revisores de Vias,Plaza Miserere,1356
+LINEA A,Equipo Vias.,Plaza Miserere,1359
+LINEA A,"Mantenimiento de Estación de Línea ""H""",Plaza Miserere,1372
+LINEA A,C.A.S. (Centro Atención Seguridad),Plaza Miserere,1395
+LINEA A,Daniel Migliore,Plaza Miserere,1510
+LINEA A,Ariel De Luca,Plaza Miserere,1511
+LINEA A,Cristian Chipolini,Plaza Miserere,1512
+LINEA A,Rodolfo Cardoso,Plaza Miserere,1514
+LINEA A,Centro de Emergencia Red Electrica,Plaza Miserere,1515
+LINEA A,Centro de Emergencia Red Electrica,Plaza Miserere,1516
+LINEA A,Señalistas,Plaza Miserere,1532
+LINEA A,Supervisores Red Electrica,Plaza Miserere,1539
+LINEA A,Jorge Omar Santiago,Plaza Miserere,1550
+LINEA A,Supervisor Comunicaciones,Plaza Miserere,1551
+LINEA A,Fax - Comunicaciones,Plaza Miserere,1559
+LINEA A,Cabina de Señales,Plaza Miserere,1481
+LINEA A,Cabina de Señales,Plaza Miserere,1485
+LINEA A,Limpieza,Loria,1881
+LINEA A,Boletería Anden Norte,Loria,1104
+LINEA A,Boletería Anden Sur,Loria,1103
+LINEA A,Boletería Anden Norte,Castro Barros,1114
+LINEA A,Supervisores de Estaciones,Castro Barros,1462
+LINEA A,Boletería Anden Sur,Castro Barros,1113
+LINEA A,Boletería Anden Norte,Río De Janeiro,1124
+LINEA A,Biblioteca,Río De Janeiro,1129
+LINEA A,Boletería Anden Sur,Río De Janeiro,1123
+LINEA A,Diego Colussi | Jefe de Línea A | SIAU,Acoyte,1401
+LINEA A,Débora Acosta ,Acoyte,1402
+LINEA A,Supervisor de Estaciones,Acoyte,1461
+LINEA A,Supervisor de Estaciones,Acoyte,1460
+LINEA A,Escuela de Tráfico,Acoyte,1454
+LINEA A,"Fax - Jefatura Linea ""A'‘",Acoyte,1499
+LINEA A,Boletería Anden Sur,Acoyte,1133
+LINEA A,Boletería Anden Norte,Acoyte,1134
+LINEA A,Recaudación,Acoyte,1470
+LINEA A,Cabina de Señales,Primera Junta,1482
+LINEA A,Taller Señales,Primera Junta,1533
+LINEA A,Cabina de Relés,Primera Junta,1534
+LINEA A,Boletería  Norte,Primera Junta,1144
+LINEA A,Boletería Sur,Primera Junta,1143
+LINEA A,Supervisor Material Rodante,Primera Junta,1608
+LINEA A,Guardia Material Rodante,Primera Junta,1604
+LINEA A,Supervisor Lavado de Coches,Primera Junta,1671
+LINEA A,Casilla Vigía Rampa,Primera Junta,1171
+LINEA A,Cuarto técnico,Puan,1150
+LINEA A,Boletería,Puan,1155
+LINEA A,Centro de potencia,Puan,1156
+LINEA A,Cuarto técnico,Carabobo,1160
+LINEA A,Boletería,Carabobo,1165
+LINEA A,Cuarto técnico,Plaza Flores,1170
+LINEA A,Boleteria,Plaza Flores,1175
+LINEA A,Centro de potencia,Plaza Flores,1176
+LINEA A,Subestación,Plaza Flores,1573
+LINEA A,Cuarto técnico,San Pedrito,1180
+LINEA A,Boleteria,San Pedrito,1185
+LINEA A,Centro de potencia,San Pedrito,1186
+LINEA A,Marcelo Geremias,San Pedrito,1400
+LINEA A,Administrativa Tráfico.,San Pedrito,1406
+LINEA A,Supervisor Tráfico ,San Pedrito,1450
+LINEA A,Supervisor Trafico,San Pedrito,1483
+LINEA A,Fabián Martinez,San Pedrito,1530
+LINEA A,Supervisor Señales,San Pedrito,1531
+LINEA A,Taller Señales,San Pedrito,1536
+LINEA A,Señales,San Pedrito,1537
+LINEA A,Señales,San Pedrito,1540
+LINEA A,Alejandro Vaca | Jefe Taller Nazca,Taller Nazca,1620
+LINEA A,Supervisor Taller,Taller Nazca,1621
+LINEA A,Bogues,Taller Nazca,1623
+LINEA A,Oficina Técnica,Taller Nazca,1624
+LINEA A,Centro de potencia,Taller Nazca,1578
+LINEA A,Seguridad,Taller Nazca,1396
+LINEA A,Sala de Reuniones,Gerencia de Mantenimiento,1364
+LINEA A,Fax Ger. Mantenimiento,Gerencia de Mantenimiento,1388
+LINEA A,Material Rodante,Gerencia de Material Rodante,1360
+LINEA A,Alejandro Alegre | Asistente de Gcia.,Gerencia de Material Rodante,1361
+LINEA A,PCP,Gerencia de Material Rodante,1368
+LINEA A,Pedro Martinez,Control de Calidad de Producción,1365
+LINEA A,CCP,Control de Calidad de Producción,1366
+LINEA A,Alberto Gomez,Control de Calidad de Producción,1341
+LINEA A,Hernan Sassi,Control de Calidad de Producción,1342
+LINEA A,Carlos Caraccio | A/C Jefatura,Planificación y Control de Producción,1381
+LINEA A,Lucas Abd,Planificación y Control de Producción,1384
+LINEA A,Lucas Juarez,Planificación y Control de Producción,1382
+LINEA A,Daniel Ugalde,Planificación y Control de Producción,1369
+LINEA A,Carolina Cicala,Planificación y Control de Producción,1363
+LINEA A,Gabriel Mohamad,Planificación y Control de Producción,1383
+LINEA A,Alejandro Souza,Planificación y Control de Producción,1367
+LINEA A,Omar Donadio,Planificación y Control de Producción,1380
+LINEA A,Fax - Planificación y Control,Planificación y Control de Producción,1387
+LINEA A,Ricardo Calderón | Jefe de Taller Polvorín,Taller Polvorín Material Rodante,1601
+LINEA A,Seguridad,Taller Polvorín Material Rodante,1391
+LINEA A,Rosa Pavón,Taller Polvorín Material Rodante,1602
+LINEA A,Personal,Taller Polvorín Material Rodante,1605
+LINEA A,S.U.M.,Taller Polvorín Material Rodante,1607
+LINEA A,Almacén,Taller Polvorín Material Rodante,1610
+LINEA A,Almacén,Taller Polvorín Material Rodante,1611
+LINEA A,Boguies,Taller Polvorín Material Rodante,1612
+LINEA A,Electromecánica,Taller Polvorín Material Rodante,1613
+LINEA A,Tornería,Taller Polvorín Material Rodante,1614
+LINEA A,Periódica / Erenesto Gutierrez,Taller Polvorín Material Rodante,1616
+LINEA A,Gustavo Coxe,Taller Polvorín Material Rodante,1617
+LINEA A,Averías,Taller Polvorín Material Rodante,1618
+LINEA A,Fax. -  Almacén,Taller Polvorín Material Rodante,1619
+LINEA A,Alistamiento,Taller Polvorín Material Rodante,1626
+LINEA A,Fax - Jefe de Planta,Taller Polvorín Material Rodante,1649
+LINEA A,Gerardo Coutoune,Taller Polvorín Material Rodante,1684
+LINEA A,Gabriel Romero,Taller Polvorín Material Rodante,1685
+LINEA A,Hugo Rodriguez,Taller Polvorín Material Rodante,1686
+LINEA A,Alstom,Taller Polvorín Material Rodante,1885
+LINEA A,Alstom,Taller Polvorín Material Rodante,1886
+LINEA A,Juan José Cutrupi,Departamento Sistema Control de Pasajes,1465
+LINEA A,Reclamos Sistema Control de Pasajes,Departamento Sistema Control de Pasajes,1466
+LINEA A,Sistema Control de Pasajes,Departamento Sistema Control de Pasajes,1467
+LINEA A,Fax Sistema Control de Pasajes,Departamento Sistema Control de Pasajes,1469
+LINEA A,Sistema Control de Pasajes,Departamento Sistema Control de Pasajes,1477
+LINEA A,Ernesto Maggio,Departamento Sistema Control de Pasajes,1479
+LINEA A,Consultorio,Servicio Medico Polvorín,1310
+LINEA A,Servicio Médico,Servicio Medico Polvorín,1311
+LINEA A,Fax. - Servicio Médico,Servicio Medico Polvorín,1319
+LINEA A,Carlos Genaro | Jefe Taller Bonifacio,Taller Bonifacio,1615
+LINEA A,Supervisores Taller Bonifacio,Taller Bonifacio,1650
+LINEA A,Laboratorio CIME,Taller Bonifacio,1651
+LINEA A,Administrativos,Taller Bonifacio,1652
+LINEA A,Almacén,Taller Bonifacio,1653
+LINEA A,Claudio Chiochio,Taller Bonifacio,1654
+LINEA A,Supervisores CIME,Taller Bonifacio,1655
+LINEA A,Nicolas Scalercio | Jefe de CIME,Taller Bonifacio,1656
+LINEA A,Fax - Taller Bonifacio,Taller Bonifacio,1659
+LINEA A,Seguridad,Taller Bonifacio,1392
+LINEA A,Marcelo Garay,Gerencia de Instalaciones Fijas,1370
+LINEA A,Alberto Inchaurrondo,Gerencia de Instalaciones Fijas,1371
+LINEA A,Fax - Instalaciones Fijas,Gerencia de Instalaciones Fijas,1389
+LINEA A,Adrian Noriega,Gerencia de Instalaciones Fijas,1500
+LINEA A,Marta Riestra,Gerencia de Instalaciones Fijas,1501
+LINEA A,Fernanda Quiroz,Gerencia de Instalaciones Fijas,1503
+LINEA A,Natam Rajchenberge,Gerencia de Instalaciones Fijas,1375
+LINEA A,Ruben Lopez,Gerencia de Instalaciones Fijas,1663
+LINEA A,Jorge Santiago,Gerencia de Instalaciones Fijas,1550
+LINEA A,Juan Carlos Olivera,Departamento Vías,1350
+LINEA A,Gabriel Elher,Departamento Vías,1351
+LINEA A,Jorge Papalia,Departamento Vías,1352
+LINEA A,Depto. Vías,Departamento Vías,1353
+LINEA A,Antonio Suriano,Departamento Vías,1357
+LINEA A,Juan Manuel Medina,Departamento Vías,1358
+LINEA A,Marcelo Steven,Departamento Vías,1378
+LINEA A,Andres Calpa Gomez,Departamento Vías,1387
+LINEA A,Juan Mangialavori,Dpto. Obras Civiles,1373
+LINEA A,Javier Russo,Dpto. Obras Civiles,1374
+LINEA A,Roberto Stelutto,Dpto. Obras Civiles,1376
+LINEA A,Alejandro Pintos,Dpto. Obras Civiles,1377
+LINEA A,Pablo Pastrian,Dpto. Obras Civiles,1502
+LINEA A,Agustin Rivolta,Dpto. Obras Civiles,1662
+LINEA A,R. Lopez / M. Hurtado,Dpto. Obras Civiles,1665
+LINEA A,Martin Maraz,Dpto. Obras Civiles,1606
+LINEA A,Gustavo Coxe,Dpto. Obras Civiles,1617
+LINEA A,Gabriel Gatica,Dpto. Obras Civiles,1666
+LINEA A,Nahuel Santilli,Dpto. Obras Civiles,1667
+LINEA A,L. Zapata / C. Scydlowsky,Dpto. Obras Civiles,1668
+LINEA A,Central Telefónica Polvorín,Varios,1556
+LINEA A,Subestación Polvorín,Varios,1575
+LINEA B,Local  Técnico ,Leandro N. Alem,2010 
+LINEA B,Boletería  ,Leandro N. Alem,2015 
+LINEA B,Recaudación ,Leandro N. Alem,2470
+LINEA B,Subestación,Leandro N. Alem,2570
+LINEA B,Boletería E.,Florida,2023 
+LINEA B,Boletería  O.,Florida,2024 
+LINEA B,SubteCard,Florida,2468
+LINEA B,Supervisor  Vías ,Florida,2351 
+LINEA B,Vestuario  Vías  ,Florida,2355 
+LINEA B,Mantenimiento,Florida,2370
+LINEA B,Mantenimiento,Florida,2371
+LINEA B,Arnaldo Ces,Florida,2372
+LINEA B,Jorge Kesberg,Florida,2373
+LINEA B,CMT Pellegrini,Carlos Pellegrini,2030 
+LINEA B,Boletería   E.,Carlos Pellegrini,2033 
+LINEA B,Boletería  O.,Carlos Pellegrini,2034
+LINEA B,Supervisor de Boleterias,Carlos Pellegrini,2461
+LINEA B,C.A.S. (Centro Atención Seguridad),Carlos Pellegrini,2391
+LINEA B,Adrian Noriega,GIF,2560 
+LINEA B,Sup Alim. Eléctrica,GIF,2561 
+LINEA B,Sup Alim. Eléctrica,GIF,2562 
+LINEA B,Adrian Noriega,GIF,2563 
+LINEA B,José Scarfó,GIF,2564 
+LINEA B,Telemando Pellegrini,GIF,2565 
+LINEA B,Matias Mon,GIF,2566
+LINEA B,Matias Fernandez,GIF,2569
+LINEA B,Cabina de Señales,GIF,2482 
+LINEA B,Boletería / Supervisor de Boleterias,Uruguay ,2045 
+LINEA B,Supervisor de Boleterias,Uruguay ,2461 
+LINEA B, Boletería  Callao,Callao,2055 
+LINEA B,Local Técnico  ,Pasteur,2060 
+LINEA B,Boletería ,Pasteur,2065 
+LINEA B,Subestación / Biblioteca,Pasteur,2571 
+LINEA B, Local Técnico ,Pueyrredon,2070 
+LINEA B, Boletería ,Pueyrredon,2075 
+LINEA B,Local. Técnico ,Carlos Gardel,2080 
+LINEA B,Boletería,Carlos Gardel,2085
+LINEA B,Supervisor de Boleterias,Carlos Gardel,2462
+LINEA B,Local Técnico ,Medrano,2090 
+LINEA B,Boleteria S,Medrano,2093 
+LINEA B,Boletería N.,Medrano,2094 
+LINEA B,CMT Medrano,Medrano,2481 
+LINEA B,Subestación ,Medrano,2572 
+LINEA B,Subestación ,Medrano,2573 
+LINEA B,Boletería  S,Ángel Gallardo,2103 
+LINEA B,Boletería  N.,Ángel Gallardo,2104 
+LINEA B,Local Técnico,Malabia,2110 
+LINEA B,Boletería S.,Malabia,2113 
+LINEA B,Boletería N.,Malabia,2114 
+LINEA B,Subestación ,Malabia,2574 
+LINEA B, Boletería S.,Dorrego,2123 
+LINEA B, Boletería N.,Dorrego,2124 
+LINEA B, Limpieza,Dorrego,2881 
+LINEA B,Mariano Romano | Jefe de Línea B | SIAU,Federico Lacroze,2401
+LINEA B,Mercedes Cortinas | Administrativa SIAU Línea B,Federico Lacroze,2402
+LINEA B,Boletería Ne.,Federico Lacroze,2133 
+LINEA B,Boletería No.,Federico Lacroze,2134 
+LINEA B,Boletería S.,Federico Lacroze,2135
+LINEA B,CAU (Marketing),Federico Lacroze,2180
+LINEA B,Formación Operativa,Federico Lacroze,2312
+LINEA B,Daniel Cravero,Federico Lacroze,2400
+LINEA B,"Operaciones Línea ""B""",Federico Lacroze,2407
+LINEA B,Coordinador de RR.HH.,Federico Lacroze,2408
+LINEA B,Superv. de Boleterias,Federico Lacroze,2460
+LINEA B,Superv. de Boleterías,Federico Lacroze,2463
+LINEA B,Carolina Balduzzi | Administrativa Tráfico Línea B,Federico Lacroze,2499 
+LINEA B,Taller de Señales,Federico Lacroze,2504
+LINEA B,Señalistas,Federico Lacroze,2505 
+LINEA B,Fax Señales ,Federico Lacroze,2539
+LINEA B,Tercer Riel,Federico Lacroze,2541 
+LINEA B,Diego Nuñez,Federico Lacroze,2550
+LINEA B,Laboratorio Señales Energía y Comunicaciones,Federico Lacroze,2551
+LINEA B,Gonzalo Merida,Federico Lacroze,2552
+LINEA B,Boletería,Tronador,2145
+LINEA B,Local  Técnico ,Tronador,2140
+LINEA B,Bombas,Tronador,2381
+LINEA B,Boletería,Los Incas,2155
+LINEA B,Local Técnico,Los Incas,2150
+LINEA B,Subestación,Los Incas,2577
+LINEA B,Bombas,Los Incas,2382
+LINEA B,Boletería,Echeverria,2165
+LINEA B,Local Técnico,Echeverria,2160
+LINEA B,Ctro. Potencia,Echeverria,2166
+LINEA B,Bombas,Echeverria,2168
+LINEA B,Boletería Sur,J. M. de Rosas,2173
+LINEA B,Boleteria Norte,J. M. de Rosas,2174
+LINEA B,Local Técnico,J. M. de Rosas,2170
+LINEA B,Daniel Cravero,J. M. de Rosas,2409
+LINEA B,Sup. De Servicio,J. M. de Rosas,2450
+LINEA B,Subestación,J. M. de Rosas,2580
+LINEA B,Bombas,J. M. de Rosas,2178
+LINEA B,Ariel Rios | Jefe de Taller Rancagua,Taller Rancagua,2600 
+LINEA B,Oficina de Supervisores,Taller Rancagua,2601 
+LINEA B,Laboratorio de ATP,Taller Rancagua,2602 
+LINEA B,Almacén T Rancagua,Taller Rancagua,2604 
+LINEA B,Sala de maniobristas,Taller Rancagua,2451 
+LINEA B,Subestación ,Taller Rancagua,2575 
+LINEA B,Oficina de Personal,Taller Rancagua,2605 
+LINEA B,Oficina de Personal,Taller Rancagua,2649 
+LINEA B,Sebastian Herrera,Taller Rancagua,2650
+LINEA B,Seguridad Portería Rancagua,Taller Rancagua,2395 
+LINEA B,Ariel Rios | Jefe de Taller Villa Urquiza,Taller Urquiza,2630
+LINEA B,Sala de reuniones,Taller Urquiza,2634
+LINEA B,Comedor,Taller Urquiza,2636
+LINEA B,Seguridad,Taller Urquiza,2391
+LINEA B,CIME,Taller Urquiza,2655
+LINEA B,Almacen,Taller Urquiza,2616
+LINEA B,Supervisor de Taller,Taller Urquiza,2631
+LINEA B,Maniobristas,Taller Urquiza,2632
+LINEA B,Centro de potencia,Taller Urquiza,2377
+LINEA B,Seccionador,Taller Urquiza,2637
+LINEA C,José Anzalone,Constitución,3450
+LINEA C,José Anzalone,Constitución,3401
+LINEA C,Asistente y Administrativo,Constitución,3402
+LINEA C,Supervisor de Servicio ,Constitución,3451
+LINEA C,C.A.U. Constitución,Constitución,3465
+LINEA C,Cabina Señales ,Constitución,3480
+LINEA C,"Fax - Jefatura Linea "" C """,Constitución,3499 
+LINEA C,Boletería Pasillo FF. CC. ,Constitución,3013 
+LINEA C,Boletería Hall ,Constitución,3014 
+LINEA C,Boletería Domo,Constitución,3015
+LINEA C,Control de evasión,Constitución,3018
+LINEA C,Diego González,GIF,3500 
+LINEA C,Supervisor Señales ,GIF,3501 
+LINEA C,Oscar Fernández,GIF,3502 
+LINEA C,"Vía ""N"" - Constitución",GIF,3505
+LINEA C,T. Señales ,GIF,3010 
+LINEA C,Fax - Señales. ,GIF,3539 
+LINEA C,Red Electrica / Catenaria C,GIF,3541 
+LINEA C,Supervisor Vías ,GIF,3351 
+LINEA C,Jorge Perez| Jefe de Taller Constitución,Taller Constitución,3601 
+LINEA C,Administrativo Taller Constitución ,Taller Constitución,3602 
+LINEA C,SIEMENS Taller Constitución,Taller Constitución,3600 
+LINEA C,Cochera Pavón,Taller Constitución,3605 
+LINEA C,Oficina Supervisores Constitución,Taller Constitución,3606
+LINEA C,Almacén Siemens,Taller Constitución,3610 
+LINEA C,Almacén Taller Constitución,Taller Constitución,3611 
+LINEA C,Seguridad Taller Constitución,Taller Constitución,3395 
+LINEA C,Punta de Anden No.,San Juan,3021 
+LINEA C,Punta de Anden Se.,San Juan,3022 
+LINEA C,Boletería ,San Juan,3025 
+LINEA C,Jose Gamenara | Jefe Línea C | SIAU,Independencia,3460
+LINEA C,Superv. de Estaciones,Independencia,3461 
+LINEA C,Supervisor de Boleterías,Independencia,3462
+LINEA C,SUBTE PASS,Independencia,3466
+LINEA C,SubteCard,Independencia,3475
+LINEA C,Cuarto Técnico,Independencia,3030
+LINEA C,Boletería,Independencia,3035 
+LINEA C,Hector Zunino,Seguridad,3399
+LINEA C,Victor Torres,Seguridad,5392
+LINEA C,Nicolas Boaglio (Coordinador),Seguridad,3397
+LINEA C,Riesgos especiales,Seguridad,3390
+LINEA C,Seguridad,Seguridad,3391
+LINEA C,Seguridad,Seguridad,3392
+LINEA C,Oficina Tecnica Seguridad,Seguridad,3393
+LINEA C,PCS,Seguridad,3792
+LINEA C,PCS,Seguridad,3793
+LINEA C,Lucas Gonzalez,Seguridad,5330
+LINEA C,Accidentología,Seguridad,5399
+LINEA C,Policial,Seguridad,1549
+LINEA C,Subestación  ,Seguridad,3570 
+LINEA C,Boletería ,Mariano Moreno,3045 
+LINEA C,Bomberos,Mariano Moreno,3396 
+LINEA C,Julio Sokol,Gerencia de Operaciones,3701
+LINEA C,Carlos Brosio ,Gerencia de Operaciones,3703 
+LINEA C,Ursula Brosio,Gerencia de Operaciones,3704 
+LINEA C,Juan Martín Mazini,Gerencia de Operaciones,3705 
+LINEA C,Roberto Rivas,Gerencia de Operaciones,3706 
+LINEA C,Marcela Laura,Gerencia de Operaciones,3707 
+LINEA C,Jean Paul Huygen,Gerencia de Operaciones,3708 
+LINEA C,Sala de Reuniones,Gerencia de Operaciones,3710 
+LINEA C,Daniel Fernandez,Gerencia de Operaciones,3712 
+LINEA C,Gcia. de Trafico,Gerencia de Operaciones,3713
+LINEA C,Entrada Recepción - Seguridad PCO,Gerencia de Operaciones,3715 
+LINEA C,Adrian Ponce,Gerencia de Operaciones,3720
+LINEA C,Gastón Pereyra,Gerencia de Operaciones,3721
+LINEA C,Sala de Server,Gerencia de Operaciones,3722
+LINEA C,Cuarto Técnico,Gerencia de Operaciones,5557
+LINEA C,Sebastián Santa Cruz,Gerencia de Operaciones,3726
+LINEA C,Mantenimiento PCO,Gerencia de Operaciones,3728
+LINEA C,Sergio Tamburrino,Gerencia de Operaciones,3729
+LINEA C,Alejandro Mavrakis,Gerencia de Operaciones,3731 
+LINEA C,Seguridad Operativa,Gerencia de Operaciones,3732 
+LINEA C,Gabriel Brito,Gerencia de Operaciones,3733 
+LINEA C,Karina Duarte,Gerencia de Operaciones,3734
+LINEA C,Supervisor Principal PCO,Gerencia de Operaciones,3735 
+LINEA C,Sala de descanso Superisores,Gerencia de Operaciones,3736
+LINEA C,Fax Coordinación Operaciones,Gerencia de Operaciones,3739 
+LINEA C,Julio Ortazun,Gerencia de Operaciones,3750
+LINEA C,"Operador Línea ""A""",Gerencia de Operaciones,3751
+LINEA C,"Operador Linea ""B""",Gerencia de Operaciones,3752
+LINEA C,"Operador Línea ""D""",Gerencia de Operaciones,3754
+LINEA C,"Operador Linea ""E""",Gerencia de Operaciones,3755
+LINEA C,Sup. Principal (sala de control),Gerencia de Operaciones,3757
+LINEA C,Operador Energía y Auxiliares,Gerencia de Operaciones,3758
+LINEA C,Operador Energía y Auxiliares,Gerencia de Operaciones,3759
+LINEA C,Sergio Taborda - Leandro Gorini - Coordinación,Gerencia de Operaciones,3760
+LINEA C,Guardia de Intervención,Gerencia de Operaciones,3761
+LINEA C,Guardia de Intervención,Gerencia de Operaciones,3762
+LINEA C,Taller de Laboratorio,Gerencia de Operaciones,3764
+LINEA C,Laboratorio PCO,Gerencia de Operaciones,3765
+LINEA C,Laboratorio PCO,Gerencia de Operaciones,3766
+LINEA C,Guardia Y Emergencia,Gerencia de Operaciones,3770 
+LINEA C,Guardia Y Emergencia,Gerencia de Operaciones,3771 
+LINEA C,Guardia Y Emergencia (sólo urgencias),Gerencia de Operaciones,3772
+LINEA C,Guardia Y Emergencia,Gerencia de Operaciones,3775
+LINEA C,Fax  Guardia de Emergencias - G. Intervenciones ,Gerencia de Operaciones,3779
+LINEA C,Puesto de Información al Usuario - IAU,Gerencia de Operaciones,3780
+LINEA C,Guardia de Emergencias,Gerencia de Operaciones,6444
+LINEA C,Visión de Camaras,Gerencia de Operaciones,3794
+LINEA C,Coordinadores RR.HH.,Gerencia de Operaciones,3797
+LINEA C,Fax  Gerencia de Operaciones,Gerencia de Operaciones,3799
+LINEA C,Martin Ocampo,Gerencia de Operaciones,3798
+LINEA C,Boletería S,Avenida de Mayo,3053 
+LINEA C,Boletería N,Avenida de Mayo,3054 
+LINEA C,Supervisor de boleterías,Avenida de Mayo,3463
+LINEA C,Seguridad A. de Mayo,Avenida de Mayo,3397 
+LINEA C,Boletería S,Diagonal Norte,3063 
+LINEA C,Boletería N,Diagonal Norte,3064 
+LINEA C,Supervisor de boleterías,Diagonal Norte,3464
+LINEA C,Seguridad  Diagonal Norte,Diagonal Norte,3391 
+LINEA C,Boletería N,Lavalle,3073 
+LINEA C,Boletería S,Lavalle,3074 
+LINEA C,Boletería ,San Martín,3085 
+LINEA C,Seguridad.cochera San Martín,San Martín,3398 
+LINEA C,Subestación ,San Martín,3571 
+LINEA C,Oficina Cochera ,San Martín,3604
+LINEA C,Supervisor de Servicio ,Retiro,3452 
+LINEA C,Supervisor de Servicio ,Retiro,3453 
+LINEA C,Cabina Señales  ,Retiro,3481 
+LINEA C,Taller de Señales ,Retiro,3090 
+LINEA C,Boletería  Retiro,Retiro,3093 
+LINEA C,Recaudación  ,Retiro,3470
+LINEA D,Boletería  E,Catedral,4013
+LINEA D,Boletería So,Catedral,4014
+LINEA D,Boletería O.,Catedral,4015
+LINEA D,Javier Abadie,GIF,4500
+LINEA D,Guardia Gerencia Instalaciones Fijas,GIF,4501
+LINEA D,Guardia Gerencia Instalaciones Fijas,GIF,4502
+LINEA D,Ethel Sosa,GIF,4503
+LINEA D,Taller de  Señales,GIF,4505
+LINEA D,Oscar Fernandez,GIF,4506
+LINEA D,Fax.:  Mantenimiento,GIF,4508
+LINEA D,Martin Piccirilli,GIF,4509
+LINEA D,T. Señales Catedral,GIF,4010
+LINEA D,Sala de Server,GIF,4212
+LINEA D,Supervisor de Vías,GIF,4351
+LINEA D,Vestuario de Vías,GIF,4355
+LINEA D,Eduardo Avila,GIF,4370
+LINEA D,Supervisor de Servicios Auxiliares,GIF,4371
+LINEA D,Daniel Bonaldi,GIF,4372
+LINEA D,Admin. Serv. Aux.,GIF,4373
+LINEA D,Taller de Servicios Auxiliares,GIF,4375
+LINEA D,Fax de Servicios Auxiliares,GIF,4389
+LINEA D,Red Electrica / Catenaria D,GIF,4541
+LINEA D,Central Telefónica Catedral,GIF,4555
+LINEA D,Supervisor de Servicio,GIF,4452
+LINEA D,Supervisor de Servicio,GIF,4453
+LINEA D,Supervisor de Estaciones,GIF,4468
+LINEA D,Cabina de Señales,GIF,4480
+LINEA D,Cabina de Señales,GIF,4490
+LINEA D,Supervisor de Boleterías,GIF,4468
+LINEA D,Boletería Se,9 de julio,4023
+LINEA D,Boletería Ne.,10 de julio,4024
+LINEA D,Boletería So.,11 de julio,4025
+LINEA D,Cabina de Señales,12 de julio,4481
+LINEA D,Cabina de Señales.,13 de julio,4491
+LINEA D,Boletería  E,Tribunales,4033
+LINEA D,Boletería O,Tribunales,4034
+LINEA D,SubteCard,Tribunales,4475
+LINEA D,C.A.S. (Centro Atención Seguridad),Tribunales,4391
+LINEA D,Boletería SO.,Callao,4043
+LINEA D,Boletería O.,Callao,4044
+LINEA D,Boletaría E.,Callao,4045
+LINEA D,Biblioteca,Callao,4049
+LINEA D,Recaudación.,Callao,4470
+LINEA D,Boletería,Facultad de Medicina,4055
+LINEA D,Subestación,Facultad de Medicina,4565
+LINEA D,Boletería,Pueyrredón,4064
+LINEA D,Boletería,Pueyrredón,4065
+LINEA D,Supervisor de Estaciones,Pueyrredón,4469
+LINEA D,Cabina de Señales.,Pueyrredón,4482
+LINEA D,Boletería,Agüero,4075
+LINEA D,Cabina de Señales,Agüero,4483
+LINEA D,Boletería S,Bulnes,4083
+LINEA D,Boletería N,Bulnes,4084
+LINEA D,Cuarto técnico,Scalabrini Ortiz,4090
+LINEA D,Boletería S.,Scalabrini Ortiz,4093
+LINEA D,Boletería N,Scalabrini Ortiz,4094
+LINEA D,Sergio Bonezza | Jefe de Taller Canning,Taller Canning,4600
+LINEA D,Oficina Taller Canning,Taller Canning,4601
+LINEA D,Oficina Taller Canning,Taller Canning,4604
+LINEA D,Pañol,Taller Canning,4607
+LINEA D,Cochera Seguridad Canning,Taller Canning,4396
+LINEA D,Taller de Señales,Plaza Italia,4100
+LINEA D,Boletería  E,Plaza Italia,4103
+LINEA D,Boletería O,Plaza Italia,4104
+LINEA D,Cabina de Señales,Plaza Italia,4484
+LINEA D,Subestación,Plaza Italia,4566
+LINEA D,Mantenimiento,Plaza Italia,4376
+LINEA D,Boletería,Palermo,4115
+LINEA D,Supervisor de Estaciones,Palermo,4476
+LINEA D,Leonardo Chiarenza | Jefe Línea D | SIAU,Ministro Carranza,4460
+LINEA D,Daniel Disisto,Ministro Carranza,4400
+LINEA D,Jefatura de tráfico,Ministro Carranza,4401
+LINEA D,Supervisor de Boleterías,Ministro Carranza,4461
+LINEA D,Marco Valverde,Ministro Carranza,4304
+LINEA D,Boletería Carranza / Sup.,Ministro Carranza,4125
+LINEA D,Cabina de Señales.,Ministro Carranza,4485
+LINEA D,Sala Relés,Ministro Carranza,4120
+LINEA D,Sala de Relés,Olleros,4130
+LINEA D,Boletería,Olleros,4135
+LINEA D,Cabina de Señales,Olleros,4486
+LINEA D,Subestación Colegiales,Olleros,4567
+LINEA D,Cuarto Técnico J. Hernández,José Hernández,4140
+LINEA D,Boletería J. Hernández,José Hernández,4145
+LINEA D,Centro de Formación Operativa,José Hernández,4311
+LINEA D,Supervisor de Servicio J. Hernández,José Hernández,4454
+LINEA D,Mesa de  Mando,José Hernández,4487
+LINEA D,Mecánicos de guardia,José Hernández,4885
+LINEA D,Local Técnico Juramento,Juramento,4150
+LINEA D,Boletería Juramento,Juramento,4155
+LINEA D,Sergio Bonezza | Jefe de Taller Congreso de Tucumán,Congreso De Tucumán,4610
+LINEA D,Seguridad Taller C. de Tucumán,Congreso De Tucumán,4397
+LINEA D,Supervisor de Servicio,Congreso De Tucumán,4450
+LINEA D,Supervisor de Servicio,Congreso De Tucumán,4451
+LINEA D,Cuarto de maniobrista,Congreso De Tucumán,4456
+LINEA D,Taller Congreso de Tucumán,Congreso De Tucumán,4605
+LINEA D,Taller Congreso de Tucumán,Congreso De Tucumán,4606
+LINEA D,Almacén Taller Congreso de Tucumán,Congreso De Tucumán,4609
+LINEA D,CIME,Congreso De Tucumán,4651
+LINEA D,Cuarto Técnico,Congreso De Tucumán,4160
+LINEA D,Boletería S,Congreso De Tucumán,4163
+LINEA D,Boletería N,Congreso De Tucumán,4164
+LINEA E,Supervisor de Servicio,Bolívar,5450
+LINEA E,Boletería N.,Bolívar,5013
+LINEA E,Boletería S.,Bolívar,5014
+LINEA E,Mecánicos,Bolívar,5457
+LINEA E,Cabina de Señales / Cuarto Técnico,Bolívar,5506
+LINEA E,Mecánicos Bolivar,Bolívar,5604
+LINEA E,Servicios Generales,Belgrano,5881
+LINEA E,Servicios Generales,Belgrano,5880
+LINEA E,Boletería,Belgrano,5025
+LINEA E,Centro de Formación Operativa,Belgrano,5310
+LINEA E,Alejandro Burec,Belgrano,5314
+LINEA E,Bombas,Belgrano,5381
+LINEA E,Fax - Centro Formación Operativa,Belgrano,5319
+LINEA E,Centro de Formación Operativa,Belgrano,5311
+LINEA E,Centro de Capacitación,Belgrano,5312
+LINEA E,Boletería,Independencia,5035
+LINEA E,Recaudación,Independencia,5470
+LINEA E,Fermin Genovese,Independencia,5472
+LINEA E,Central Telefónica,Independencia,5556
+LINEA E,Guardia,Independencia,5602
+LINEA E,Bombas,Independencia,5381
+LINEA E,Boletería,San José,5045
+LINEA E,Julian Mortola | Jefe del Taller San José,San José,5600
+LINEA E,Cabina de Señales,San José,5480
+LINEA E,Cabina de Señales,San José,5481
+LINEA E,Cabina de Señales,San José,5484
+LINEA E,Sala de Relés / Cto. Técnico,San José,5508
+LINEA E,Hugo Robles,San José,5606
+LINEA E,Almacen Taller San Jose,San José,5610
+LINEA E,Taller San Jose,San José,5882
+LINEA E,Taller San Jose,San José,5884
+LINEA E,Boletería,Entre Ríos,5055
+LINEA E,Boletería,Pichincha,5065
+LINEA E,"G.O.I. Alberti - Alvarez Iberlucea, Oscar",Pichincha,5580
+LINEA E,"G.O.I. Alberti - Eledo, Claudio",Pichincha,5581
+LINEA E,"G.O.I. Alberti - Picqueadio, Nicolás/Gutierrez, Alejandro",Pichincha,5582
+LINEA E,"G.O.I. Alberti - Francesconi, Armando",Pichincha,5583
+LINEA E,"G.O.I. Alberti - De Piero, Jorge/Juarez, Gabriel",Pichincha,5584
+LINEA E,Subestación,Jujuy,5572
+LINEA E,Subestación,Jujuy,5573
+LINEA E,Boletería,Jujuy,5075
+LINEA E,Bombas,Urquiza,5381
+LINEA E,Boletería,Urquiza,5085
+LINEA E,Boletería,Boedo,5095
+LINEA E,Policía Metropolitana,Boedo,5389
+LINEA E,Supervisor de Señales,Boedo,5501
+LINEA E,Sala de Relés / Cuarto Técnico,Boedo,5505
+LINEA E,Fax Señales,Boedo,5509
+LINEA E,Estela Rodriguez | Jefa Línea E | SIAU,Avenida La Plata,5460
+LINEA E,Boletería,Avenida La Plata,5105
+LINEA E,Maniobristas,Avenida La Plata,5451
+LINEA E,Supervisor de Boleterías,Avenida La Plata,5461
+LINEA E,Administrativo / Coordinador RR.HH.,Avenida La Plata,5463
+LINEA E,Supervisor de Boleterías,Avenida La Plata,5467
+LINEA E,Vías,José María Moreno,5355
+LINEA E,Boletería - Deposito,José María Moreno,5115
+LINEA E,Supervisor de Boleterias,José María Moreno,5463
+LINEA E,Boletería,Emilio Mitre,5125
+LINEA E,Bomba Centenera,Emilio Mitre,5380
+LINEA E,Mutual,Emilio Mitre,5883
+LINEA E,Red Electrica / Redes,Emilio Mitre,5513
+LINEA E,Subestación,Emilio Mitre,5574
+LINEA E,Red Electrica / Redes,Medalla Milagrosa,5511
+LINEA E,Red Electrica / Redes,Medalla Milagrosa,5512
+LINEA E,Boletería,Medalla Milagrosa,5135
+LINEA E,Ruben Gonzalez,Medalla Milagrosa,5370
+LINEA E,Supervisor de Taller,Medalla Milagrosa,5371
+LINEA E,Horacio Molino,Medalla Milagrosa,5372
+LINEA E,Supervisor OOCC,Medalla Milagrosa,5373
+LINEA E,Gabriel Ledesma,Medalla Milagrosa,5374
+LINEA E,Almacen Instalaciones Fijas,Medalla Milagrosa,5520
+LINEA E,Almacen Instalaciones Fijas,Medalla Milagrosa,5521
+LINEA E,Deposito Almacen Instalaciones Fijas,Medalla Milagrosa,5522
+LINEA E,Pablo Lopez Foglia,Medalla Milagrosa,5523
+LINEA E,Boletería,Varela,5145
+LINEA E,Biblioteca Varela,Varela,5149
+LINEA E,Centro de Formación Operativa,Varela,5312
+LINEA E,Bombas,Varela,5380
+LINEA E,Cuarto de Maniobristas,Varela,5458
+LINEA E,Supervisor de Servicio,Plaza de Los Virreyes,5455
+LINEA E,Supervisor de Servicio,Plaza de Los Virreyes,5452
+LINEA E,Boletería,Plaza de Los Virreyes,5155
+LINEA E,Bombas,Plaza de Los Virreyes,5380
+LINEA E,Cuarto Técnico,Plaza de Los Virreyes,5507
+LINEA E,Sala de Relés / Cuarto de Señales,Plaza de Los Virreyes,5507
+LINEA E,Policia de la Ciudad,Plaza de Los Virreyes,5396
+LINEA E,Taller de Señales,Plaza de Los Virreyes,5884
+LINEA E,"Jefatura de  Linea ""E"" (Int. Saguier)",Premetro,5402
+LINEA E,Ruben  Armella,Premetro,5401
+LINEA E,Cuarto maniobristas,Premetro,5459
+LINEA E,Supervisor de Servicio (Int. Saguier),Premetro,5453
+LINEA E,Supervisor de Servicio (Int. Saguier),Premetro,5454
+LINEA E,Recaudación (Int. Saguier),Premetro,5471
+LINEA E,Mecánicos (Int. Saguier),Premetro,5603
+LINEA E,Subestación Premetro I,Premetro,5570
+LINEA E,Lanzadera / Subestación Premetro III,Premetro,5482
+LINEA E,Taller Mariano Acosta,Premetro,5601
+LINEA E,Alejandro Serbia | Jefe de Taller Mariano Acosta,Premetro,5605
+LINEA E,Taller M. Acosta,Premetro,5615
+LINEA E,Taller M. Acosta,Premetro,5616
+LINEA E,Seguridad Mariano Acosta,Premetro,5391
+LINEA E,PFA. Premetro,Premetro,5394
+LINEA H,Cuarto técnico,Hospitales,9020
+LINEA H,Boletería,Hospitales,9023
+LINEA H,Boletería,Hospitales,9024
+LINEA H,Cuarto de Potencia,Hospitales,9574
+LINEA H,Cuarto técnico,Parque Patricios,9030
+LINEA H,Boletería,Parque Patricios,9033
+LINEA H,Boletería,Parque Patricios,9034
+LINEA H,Sala de Boleteros,Parque Patricios,9038
+LINEA H,Sala de Boleteros,Parque Patricios,9039
+LINEA H,Cuarto de Potencia,Parque Patricios,9573
+LINEA H,Cuarto técnico,Caseros,9040
+LINEA H,Boleteria,Caseros,9043
+LINEA H,Boleteria,Caseros,9044
+LINEA H,Cabina de señales,Caseros,9484
+LINEA H,Señales,Caseros,9501
+LINEA H,Walter Di Sanzo | Jefe de Taller Colonia,Taller Colonia,9600
+LINEA H,Jefatura TO,Taller Colonia,9601
+LINEA H,Administrativo,Taller Colonia,9602
+LINEA H,Supervisor de Taller,Taller Colonia,9652
+LINEA H,Bancos,Taller Colonia,9653
+LINEA H,Sup. Taller,Taller Colonia,9654
+LINEA H,Reparaciones 2,Taller Colonia,9655
+LINEA H,Mecánico de Guardia,Taller Colonia,9656
+LINEA H,Cuarto técnico,Inclan,9050
+LINEA H,Boletería Norte,Inclan,9053
+LINEA H,Boletería Sur,Inclan,9054
+LINEA H,Silvana Carrabs | Jefa Línea H | SIAU,Humberto Primo,9460
+LINEA H,Boletería Norte,Humberto Primo,9063
+LINEA H,Boletería Sur,Humberto Primo,9064
+LINEA H,Coordinador RR HH Tráfico y Estaciones,Humberto Primo,9302
+LINEA H,Daniel Reynoso,Humberto Primo,9400
+LINEA H,Administrativo Tráfico,Humberto Primo,9401
+LINEA H,Supervisores de Estaciones,Humberto Primo,9461
+LINEA H,Administrativa,Humberto Primo,9462
+LINEA H,Supervisores de Estaciones,Humberto Primo,9463
+LINEA H,Supervisores de Estaciones,Humberto Primo,9464
+LINEA H,Supervisores de Estaciones,Humberto Primo,9465
+LINEA H,Fax Jefatura Estaciones,Humberto Primo,9469
+LINEA H,Miguel Mendez,Humberto Primo,9500
+LINEA H,Hector Richiardi,Humberto Primo,9553
+LINEA H,Fabio Haudet,Humberto Primo,9555
+LINEA H,Sistema de Comunicaciones,Humberto Primo,9556
+LINEA H,Santiago Lumsden,Humberto Primo,9557
+LINEA H,Federico Velasco,Humberto Primo,9558
+LINEA H,Operador de Línea H,Humberto Primo,9751
+LINEA H,Operador de Línea H,Humberto Primo,9753
+LINEA H,Gestión Comunicaciones,Humberto Primo,9755
+LINEA H,Operador de Energía,Humberto Primo,9756
+LINEA H,Operador de Energía,Humberto Primo,9757
+LINEA H,Consola Tierra Tren,Humberto Primo,9766
+LINEA H,CCTV Seguridad,Humberto Primo,9791
+LINEA H,Cuarto técnico,Venezuela,9070
+LINEA H,Boletería Norte,Venezuela,9073
+LINEA H,Boletería Sur,Venezuela,9074
+LINEA H,Tesorería,Venezuela,9844
+LINEA H,Cuarto técnico,Once,9080
+LINEA H,Boleteria,Once,9083
+LINEA H,Boleteria,Once,9084
+LINEA H,Cabina de señales,Once,9485
+LINEA H,Cuarto técnico,Corrientes,9090
+LINEA H,Boleteria,Corrientes,9093
+LINEA H,Boleteria,Corrientes,9094
+LINEA H,Cuarto de Potencia,Corrientes,9582
+LINEA H,Cuarto técnico,Córdoba,9100
+LINEA H,Boleteria,Córdoba,9103
+LINEA H,Boleteria,Córdoba,9104
+LINEA H,Señales,Córdoba,9504
+LINEA H,Centro de Potencia,Córdoba,9583
+LINEA H,SER Cordoba,Córdoba,9545
+LINEA H,SER Cordoba,Córdoba,9546
+LINEA H,SER Cordoba,Córdoba,9547
+LINEA H,Cuarto técnico,Santa Fé,9110
+LINEA H,Boletería,Santa Fé,9113
+LINEA H,Boletería,Santa Fé,9114
+LINEA H,Boleteria,Santa Fé,9115
+LINEA H,Centro Potencia,Santa Fé,9584
+LINEA H,Boletería,Las Heras,9123
+LINEA H,Boletería,Las Heras,9124
+LINEA H,Cuarto técnico,Las Heras,9120
+LINEA H,Sala Descanso Personal Estaciones,Las Heras,9125
+LINEA H,Supervisor de Servicio,Las Heras,9450
+LINEA H,Sala descanso Conductores/Guardas,Las Heras,9451
+LINEA H,Supervisor de Servicio,Las Heras,9452
+LINEA H,Sup. De Señales,Las Heras,9506
+LINEA H,Señales,Las Heras,9507
+LINEA H,Centro de Potencia,Las Heras,9585
+LINEA H,Boletería,Facultad de Derecho,9133
+LINEA H,Boletería,Facultad de Derecho,9135
+LINEA H,Cuarto técnico,Facultad de Derecho,9130
+LINEA H,Señales,Facultad de Derecho,9510
+LINEA H,Centro de Potencia,Facultad de Derecho,9586

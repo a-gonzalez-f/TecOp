@@ -1,0 +1,30 @@
+services:
+  backend:
+    build: ./backend
+    container_name: tecdig-backend
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./backend/.env
+    restart: unless-stopped
+    depends_on:
+      - mongo
+
+  frontend:
+    build: ./frontend
+    container_name: tecdig-frontend
+    ports:
+      - "3001:80"
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:4.4
+    container_name: tecdig-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  mongo_data:

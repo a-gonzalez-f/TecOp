@@ -1,0 +1,76 @@
+.eventsList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  max-height: 90%;
+  padding: 0rem 1rem;
+}
+
+.eventItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: linear-gradient(145deg, #242424, #1f1f1f);
+  box-shadow:
+    6px 6px 14px #181818,
+    -6px -6px 14px #272727;
+  font-size: 14px;
+  color: #999;
+  transition: all 0.1s ease;
+}
+
+.eventItem:hover {
+  background: linear-gradient(145deg, #1f1f1f, #242424);
+  color: #fff;
+  transform: scale(1.01);
+}
+
+.eventItem > div,
+.iconCambio {
+  min-width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventItem > div {
+  padding: 10px 0;
+}
+
+.eventItem > div:first-child {
+  justify-content: flex-start;
+  padding-right: 12px;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.eventItem > div:last-child {
+  font-size: 12px;
+  padding-left: 1rem;
+  justify-content: flex-end;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.2);
+}
+.descripcion {
+  font-size: 13px;
+}
+
+.cambiosIcons {
+  gap: 2px;
+}
+
+.stateChange {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.montado {
+  font-size: 12px;
+  gap: 5px;
+}
+.montado > p > b {
+  font-size: 14px;
+}

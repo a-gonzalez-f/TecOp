@@ -1,0 +1,125 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-size: 20px;
+}
+
+.ok {
+  border: 2px solid rgb(38, 194, 38, 0.5) !important;
+}
+.fs {
+  border: 2px solid rgb(194, 38, 38, 0.5) !important;
+}
+.stateOn {
+  fill: #5aff81;
+}
+.stateOff {
+  fill: #c22626;
+}
+
+.radioCard {
+  position: relative;
+  background-color: #191919;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 4px 4px black;
+  transition: all 0.2s ease;
+  padding: 7px 10px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  cursor: pointer;
+  overflow: hidden;
+  height: 150px;
+}
+
+.radioCard:hover {
+  box-shadow: inset 2px 2px 6px 6px black;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-body {
+  position: relative;
+  padding-top: 5px;
+}
+
+.card-body > p {
+  text-align: left;
+  font-size: 13px;
+}
+
+.lineaRadio {
+  position: absolute;
+  line-height: normal;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0.9rem;
+  border-radius: 20px 0 0 0;
+  color: #606060;
+}
+
+.integridadCard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  background-color: rgba(33, 33, 33, 0.8);
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+}
+
+.radioCard:hover .integridadCard {
+  opacity: 1;
+}
+
+.stateIcon {
+  display: flex;
+  justify-content: center;
+}
+
+.stateIcon > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tren {
+  display: flex;
+  gap: 1rem;
+}
+
+h6 {
+  font-size: 9px;
+}
+
+.radioState {
+  display: flex;
+  align-items: center;
+}

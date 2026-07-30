@@ -1,0 +1,47 @@
+#formRadioEvent {
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-width: 30vw;
+}
+
+input,
+select {
+  box-shadow: none;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#componentes {
+  display: flex;
+}
+
+#componentes > label {
+  align-items: center;
+}
+
+#componentes > label > input {
+  cursor: pointer;
+  width: 100px;
+  margin: 5px;
+}
+
+#descripcion {
+  height: 3rem;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+.fsb {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

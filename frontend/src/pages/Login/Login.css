@@ -1,0 +1,62 @@
+.formContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ingreso {
+  width: 25vw;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #242424, #1f1f1f);
+  box-shadow:
+    20px 20px 60px #181818,
+    -20px -20px 60px #2c2c2c;
+}
+
+.ingreso input {
+  background: linear-gradient(145deg, #242424, #383838);
+  border-radius: 20px;
+  border: 1px solid #555;
+  padding: 15px 15px;
+  margin: 5px 0;
+  box-shadow:
+    10px 10px 30px #181818,
+    -10px -10px 30px #2c2c2c;
+}
+
+.ingreso > .submitButton {
+  margin-top: 2rem;
+}
+
+.signUpButton {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+.signUpButton:hover {
+  opacity: 1;
+}
+
+.logoEmova-medium {
+  width: 200px;
+}
+
+.logo {
+  margin: 1rem;
+}
+
+.logo h1 {
+  font-weight: 400;
+}

@@ -1,0 +1,135 @@
+.searchContainer {
+  padding: 1rem 0;
+  border-bottom: 2px solid #333;
+  box-shadow: 0 7px 5px -5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInternos {
+  width: 300px;
+}
+
+.containerInternos {
+  padding: 20px;
+}
+
+#internos {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#internos th,
+#internos td {
+  border-bottom: 1px solid #333;
+  height: 40px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+#internos tr {
+  transition: all 0.2s;
+}
+#internos tr:hover {
+  background-color: #111;
+  box-shadow: 0 3px 0 rgba(90, 255, 129, 0.5);
+}
+
+#internos td:nth-child(1),
+#internos th:nth-child(1) {
+  width: 20%;
+}
+#internos td:nth-child(2),
+#internos th:nth-child(2) {
+  width: 35%;
+}
+#internos td:nth-child(3),
+#internos th:nth-child(3) {
+  width: 35%;
+}
+#internos td:nth-child(4),
+#internos th:nth-child(4) {
+  width: 10%;
+  text-align: right;
+  font-weight: 700;
+  padding: 0 2rem;
+}
+
+#internos .loading > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.emptyMessage {
+  text-align: center;
+  align-items: center;
+}
+
+#internos td > div {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#internos .editButton {
+  padding: 0;
+  background-color: transparent;
+  display: none;
+  position: absolute;
+  right: 10px;
+  padding: 0 5px;
+  backdrop-filter: blur(2px);
+}
+
+#internos .editButton > svg {
+  width: 20px;
+  height: 20px;
+}
+#internos .editButton > svg:hover {
+  fill: rgba(90, 255, 129);
+}
+
+#internos td > div:hover .editButton {
+  display: flex;
+}
+
+#internos td > .inputEdit > input {
+  width: 100%;
+  background-color: transparent;
+  outline: 1px solid white;
+  position: relative;
+  font-size: 15px;
+}
+
+.confirmEdit {
+  position: absolute;
+  right: 5px;
+  display: flex;
+}
+
+.confirmEdit > button {
+  background-color: transparent;
+  padding: 0;
+  width: min-content;
+  display: flex;
+}
+
+.confirmEdit > button > svg {
+  width: 17px;
+  opacity: 0.5;
+}
+.confirmEdit > button > svg:hover {
+  opacity: 1;
+}
+
+#addInterno {
+  background-color: transparent;
+  fill: #fff;
+  display: flex;
+}
+
+#addInterno:hover {
+  fill: rgba(90, 255, 129);
+}

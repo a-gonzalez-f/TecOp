@@ -1,0 +1,43 @@
+.aclaracion {
+  font-size: 12px;
+  padding: 5px;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.signup {
+  align-items: flex-start;
+  width: auto;
+}
+
+.signup > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.warn {
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+}
+
+.invalid {
+  outline: 2px solid rgba(222, 8, 8, 0.9) !important;
+}
+.valid {
+  outline: 2px solid rgba(90, 255, 129, 0.9) !important;
+}
+
+.ingreso h1 {
+  font-size: 30px;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.inputContainer .loading {
+  position: absolute;
+  left: -15px;
+}
