@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" onClick={() => setOpen(false)}>
-        <h2>TecDig App</h2>
+        <h2>TecOp</h2>
       </Link>
 
       <div className={`links ${open ? "open" : ""}`}>
