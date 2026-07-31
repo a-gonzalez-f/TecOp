@@ -4,6 +4,8 @@ import { useNavigate, Link } from "react-router-dom";
 import toast from "react-hot-toast";
 import "./Login.css";
 
+const dominio = import.meta.env.VITE_EMAIL_DOMAIN;
+
 function Login() {
   const { login } = useAuth();
   const [email, setEmail] = useState("");
@@ -49,11 +51,7 @@ function Login() {
     <div className="formContainer">
       <form className="ingreso" onSubmit={handleSubmit}>
         <div className="logo">
-          <img
-            className="logoEmova-medium"
-            src="/logo-emova.png"
-            alt="logo Emova"
-          />
+          <img className="logo-medium" src="/logo.png" alt="logo" />
           <h1>Tecnologías Digitales</h1>
         </div>
         <div>

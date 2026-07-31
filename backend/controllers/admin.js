@@ -1,4 +1,8 @@
 import User from "../models/User.js";
+import dotenv from "dotenv";
+dotenv.config();
+
+const dominio = process.env.EMAIL_DOMAIN;
 
 export const authorizeUser = async (req, res) => {
   try {
@@ -6,7 +10,7 @@ export const authorizeUser = async (req, res) => {
 
     const normalizedEmail = email.toLowerCase().trim();
 
-    if (!normalizedEmail.endsWith("@emova.com.ar")) {
+    if (!normalizedEmail.endsWith(`@${dominio}`)) {
       return res.status(400).json({
         message: "Dominio inválido",
       });

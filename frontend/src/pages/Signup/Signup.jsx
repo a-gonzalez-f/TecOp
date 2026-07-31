@@ -4,6 +4,8 @@ import toast from "react-hot-toast";
 import { icons } from "../../assets/icons/Icons";
 import "./Signup.css";
 
+const dominio = import.meta.env.VITE_EMAIL_DOMAIN;
+
 function Signup() {
   const navigate = useNavigate();
 
@@ -16,12 +18,12 @@ function Signup() {
   const [loading, setLoading] = useState(false);
   const [emailStatus, setEmailStatus] = useState("idle");
   const [aclaracionMail, setAclaracionMail] = useState(
-    "Utilizá tu mail de Emova autorizado",
+    `Utilizá tu mail de ${dominio} autorizado`,
   );
 
   const { email, password, confirmPassword } = formData;
 
-  const invalidEmail = email && !email.endsWith("@emova.com.ar");
+  const invalidEmail = email && !email.endsWith(`@${dominio}`);
   const invalidPsw = password && password.length < 8;
   const passwordMismatch = confirmPassword && password !== confirmPassword;
 
@@ -37,13 +39,13 @@ function Signup() {
   useEffect(() => {
     if (!email) {
       setEmailStatus("idle");
-      setAclaracionMail("Utilizá tu mail de Emova autorizado");
+      setAclaracionMail(`Utilizá tu mail de ${dominio} autorizado`);
       return;
     }
 
     if (invalidEmail) {
       setEmailStatus("idle");
-      setAclaracionMail("El mail debe terminar en @emova.com.ar");
+      setAclaracionMail(`El mail debe terminar en @${dominio}`);
       return;
     }
 
@@ -52,7 +54,7 @@ function Signup() {
         setEmailStatus("loading");
 
         const response = await fetch(
-          `${import.meta.env.VITE_API_URL}/api/users/check-email/${email}`,
+          `${import.meta.env.VITE_API_URL}/api/users/check-email/${encodeURIComponent(email)}`,
         );
 
         const data = await response.json();
@@ -147,7 +149,7 @@ function Signup() {
             name="email"
             value={email}
             onChange={handleChange}
-            placeholder="usuario@emova.com.ar"
+            placeholder={`usuario@${dominio}`}
             className={`
               ${invalidEmail ? "invalid" : ""}
               ${emailStatus === "valid" ? "valid" : ""}

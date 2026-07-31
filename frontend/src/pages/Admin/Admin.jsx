@@ -4,13 +4,15 @@ import { useAuth } from "../../context/AuthContext";
 import { icons } from "../../assets/icons/Icons";
 import toast from "react-hot-toast";
 
+const dominio = import.meta.env.VITE_EMAIL_DOMAIN;
+
 function Admin() {
   const { token } = useAuth();
   const [loading, setLoading] = useState(false);
   const [emailNuevo, setEmailNuevo] = useState("");
   const [autorizados, setAutorizados] = useState([]);
 
-  const invalidEmail = emailNuevo && !emailNuevo.endsWith("@emova.com.ar");
+  const invalidEmail = emailNuevo && !emailNuevo.endsWith(`@${dominio}`);
 
   const fetchUsers = async () => {
     try {
@@ -200,7 +202,7 @@ function Admin() {
               type="email"
               name="email"
               id="email"
-              placeholder="usuario@emova.com.ar"
+              placeholder="usuario@dominio.com.ar"
               value={emailNuevo}
               onChange={(e) => setEmailNuevo(e.target.value)}
               autoComplete="off"
@@ -234,47 +236,45 @@ function Admin() {
             </thead>
 
             <tbody>
-              {autorizados
-                .filter((user) => user.email !== "admin@emova.com.ar")
-                .map((user) => (
-                  <tr key={user._id}>
-                    <td>{user.email}</td>
-                    <td>{user.signupCompleted ? "Completo" : "Incompleto"}</td>
-                    <td>
-                      <select
-                        name="role"
-                        id="role"
-                        value={user.role}
-                        disabled={loading}
-                        onChange={(e) => handleChange(user._id, e.target.value)}
-                      >
-                        <option value="admin">Admin</option>
-                        <option value="supervisor">Supervisor</option>
-                        <option value="user">Usuario</option>
-                      </select>
-                    </td>
-                    <td>
-                      <button
-                        type="button"
-                        onClick={() => handleToggle(user._id)}
-                        className="actionButton"
-                        disabled={loading}
-                      >
-                        {user.enabled ? icons.toggleOn : icons.toggleOff}
-                      </button>
-                    </td>
-                    <td>
-                      <button
-                        type="button"
-                        onClick={() => handleReset(user._id)}
-                        className="actionButton"
-                        disabled={loading}
-                      >
-                        {icons.restart}
-                      </button>
-                    </td>
-                  </tr>
-                ))}
+              {autorizados.map((user) => (
+                <tr key={user._id}>
+                  <td>{user.email}</td>
+                  <td>{user.signupCompleted ? "Completo" : "Incompleto"}</td>
+                  <td>
+                    <select
+                      name="role"
+                      id="role"
+                      value={user.role}
+                      disabled={loading}
+                      onChange={(e) => handleChange(user._id, e.target.value)}
+                    >
+                      <option value="admin">Admin</option>
+                      <option value="supervisor">Supervisor</option>
+                      <option value="user">Usuario</option>
+                    </select>
+                  </td>
+                  <td>
+                    <button
+                      type="button"
+                      onClick={() => handleToggle(user._id)}
+                      className="actionButton"
+                      disabled={loading}
+                    >
+                      {user.enabled ? icons.toggleOn : icons.toggleOff}
+                    </button>
+                  </td>
+                  <td>
+                    <button
+                      type="button"
+                      onClick={() => handleReset(user._id)}
+                      className="actionButton"
+                      disabled={loading}
+                    >
+                      {icons.restart}
+                    </button>
+                  </td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>

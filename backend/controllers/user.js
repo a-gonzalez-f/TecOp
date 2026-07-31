@@ -1,6 +1,10 @@
 import bcrypt from "bcrypt";
 import User from "../models/User.js";
 import generateToken from "../utils/generateToken.js";
+import dotenv from "dotenv";
+dotenv.config();
+
+const dominio = process.env.EMAIL_DOMAIN;
 
 export const signup = async (req, res) => {
   try {
@@ -8,7 +12,7 @@ export const signup = async (req, res) => {
 
     const normalizedEmail = email.toLowerCase().trim();
 
-    if (!normalizedEmail.endsWith("@emova.com.ar")) {
+    if (!normalizedEmail.endsWith(`@${dominio}`)) {
       return res.status(400).json({
         message: "Dominio de email inválido",
       });
@@ -116,8 +120,10 @@ Creá tu contraseña en "Crear cuenta"`,
 
 export const checkEmail = async (req, res) => {
   try {
+    const normalizedEmail = req.params.email.toLowerCase().trim();
+
     const user = await User.findOne({
-      email: req.params.email,
+      email: normalizedEmail,
     }).select("enabled signupCompleted");
 
     if (!user) {
@@ -132,6 +138,8 @@ export const checkEmail = async (req, res) => {
       signupCompleted: user.signupCompleted,
     });
   } catch (err) {
+    console.error(err);
+
     res.status(500).json({
       message: "Error al verificar email",
     });
