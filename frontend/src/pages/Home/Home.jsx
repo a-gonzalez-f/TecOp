@@ -13,7 +13,7 @@ function Home() {
         <h1>
           <b>Bienvenido,</b> {username}
         </h1>
-        <p>Selecciona un módulo para comenzar a trabajar.</p>
+        <p>Seleccioná un módulo para comenzar a trabajar.</p>
       </header>
 
       <div className="linkCardContainer">
