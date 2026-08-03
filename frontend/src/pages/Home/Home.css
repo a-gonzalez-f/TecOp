@@ -37,19 +37,19 @@
   gap: 20px;
 }
 
-.card-rtu {
+.card-activo1 {
   grid-column: span 2;
 }
 
-.card-engrasadoras {
+.card-activo2 {
   grid-column: span 1;
 }
 
-.card-radios {
+.card-activo3 {
   grid-column: span 1;
 }
 
-.card-internos {
+.card-activo4 {
   grid-column: span 2;
 }
 
@@ -146,10 +146,10 @@
     grid-template-rows: auto;
   }
 
-  .card-rtu,
-  .card-engrasadoras,
-  .card-radios,
-  .card-internos {
+  .card-activo1,
+  .card-activo2,
+  .card-activo3,
+  .card-activo4 {
     grid-column: span 1;
   }
 

@@ -24,20 +24,12 @@ function Navbar() {
           Home
         </NavLink>
 
-        <NavLink to="/rtu" onClick={() => setOpen(false)}>
-          RTUs
+        <NavLink to="/activo1" onClick={() => setOpen(false)}>
+          Activo1
         </NavLink>
 
-        <NavLink to="/engrasadoras" onClick={() => setOpen(false)}>
-          Engrasadoras
-        </NavLink>
-
-        <NavLink to="/radios" onClick={() => setOpen(false)}>
-          Radios
-        </NavLink>
-
-        <NavLink to="/internos" onClick={() => setOpen(false)}>
-          Internos
+        <NavLink to="/activo2" onClick={() => setOpen(false)}>
+          Activo2
         </NavLink>
 
         {!user ? (

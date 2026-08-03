@@ -1,16 +1,16 @@
 import { stateToIcon } from "../../utils/stateToIcon";
 import { icons } from "../../assets/icons/Icons";
-import "./ModalEngContent.css";
+import "./ActivoModalContent.css";
 import { useState, useEffect } from "react";
 import AccionamientosChart from "../Analytics/AccionamientosChart";
 import EstadosChart from "../Analytics/EstadosChart";
 
-function ModalEngContent({ engrasadora }) {
+function ActivoModalContent({ activo }) {
   useEffect(() => {
-    if (!engrasadora) return;
+    if (!activo) return;
     loadData();
     loadSettings();
-  }, [engrasadora]);
+  }, [activo]);
 
   const [snapshots, setSnapshots] = useState([]);
   const [loadingSnapshots, setLoadingSnapshots] = useState(false);
@@ -21,12 +21,12 @@ function ModalEngContent({ engrasadora }) {
   const [errorHistorial, setErrorHistorial] = useState(null);
 
   const fetchSnapshots = async () => {
-    if (!engrasadora) return;
+    if (!activo) return;
     try {
       setLoadingSnapshots(true);
 
       const res = await fetch(
-        `http://172.30.191.42:3000/api/engrasadoras/snapshots/${engrasadora.id}?servicio=true`,
+        `http://172.30.191.42:3000/api/activos/snapshots/${activo.id}?servicio=true`,
       );
 
       if (!res.ok) {
@@ -58,13 +58,13 @@ function ModalEngContent({ engrasadora }) {
   };
 
   const fetchHistorial = async () => {
-    if (!engrasadora) return;
+    if (!activo) return;
     try {
       setLoadingHistorial(true);
       setErrorHistorial(null);
 
       const res = await fetch(
-        `http://172.30.191.42:3000/api/engrasadoras/historialPaginado/${engrasadora.id}?offset=0&limit=25&tipo=todos&estado=todos&flujo=todos&power=todos&onoff=todos&repetidos=true`,
+        `http://172.30.191.42:3000/api/activos/historialPaginado/${activo.id}?offset=0&limit=25&tipo=todos&estado=todos&flujo=todos&power=todos&onoff=todos&repetidos=true`,
       );
 
       if (!res.ok) {
@@ -93,10 +93,10 @@ function ModalEngContent({ engrasadora }) {
   };
 
   useEffect(() => {
-    if (!engrasadora) return;
+    if (!activo) return;
     fetchSnapshots();
     fetchHistorial();
-  }, [engrasadora]);
+  }, [activo]);
 
   // data edit ---------------------------------------------------
 
@@ -112,11 +112,11 @@ function ModalEngContent({ engrasadora }) {
 
   const loadData = () => {
     setData({
-      id: engrasadora.id ?? "",
-      estado: engrasadora.estado ?? "",
-      nombre: engrasadora.nombre ?? "",
-      via: engrasadora.via ?? "",
-      posicion: engrasadora.posicion ?? "",
+      id: activo.id ?? "",
+      estado: activo.estado ?? "",
+      nombre: activo.nombre ?? "",
+      via: activo.via ?? "",
+      posicion: activo.posicion ?? "",
     });
   };
 
@@ -148,9 +148,9 @@ function ModalEngContent({ engrasadora }) {
 
   const loadSettings = () => {
     setSettings({
-      tiempo: engrasadora.set_tiempodosif ?? "",
-      ejes: engrasadora.set_ejes ?? "",
-      estado: engrasadora.estado ?? "",
+      tiempo: activo.set_tiempodosif ?? "",
+      ejes: activo.set_ejes ?? "",
+      estado: activo.estado ?? "",
     });
   };
 
@@ -195,7 +195,7 @@ function ModalEngContent({ engrasadora }) {
       )}
 
       <div className="dataWrapper">
-        <span className="spanTooltip" data-tooltip={engrasadora.estado}>
+        <span className="spanTooltip" data-tooltip={activo.estado}>
           {stateToIcon(data.estado)}
         </span>
         <span className="separador"></span>
@@ -401,7 +401,7 @@ function ModalEngContent({ engrasadora }) {
             <button
               type="button"
               className="moreBtn actionButton"
-              onClick={() => abrirHistorialCompleto(engrasadora.id)}
+              onClick={() => abrirHistorialCompleto(activo.id)}
             >
               {icons.add}
             </button>
@@ -436,7 +436,7 @@ function ModalEngContent({ engrasadora }) {
             <button
               type="button"
               className="moreBtn actionButton"
-              onClick={() => abrirComentarios(engrasadora.id)}
+              onClick={() => abrirComentarios(activo.id)}
             >
               {icons.add}
             </button>
@@ -463,7 +463,7 @@ function ModalEngContent({ engrasadora }) {
                 <button
                   type="button"
                   className="moreBtn actionButton"
-                  onClick={() => abrirAnalytics(engrasadora.id)}
+                  onClick={() => abrirAnalytics(activo.id)}
                 >
                   {icons.analytics}
                 </button>
@@ -476,4 +476,4 @@ function ModalEngContent({ engrasadora }) {
   );
 }
 
-export default ModalEngContent;
+export default ActivoModalContent;

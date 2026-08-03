@@ -5,13 +5,12 @@ import { Toaster } from "react-hot-toast";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import Signup from "./pages/Signup/Signup";
-import Radios from "./pages/Radios/Radios";
 import Admin from "./pages/Admin/Admin";
-import Internos from "./pages/Internos/Internos";
-import Rtu from "./pages/Rtu/Rtu";
+import Activo1 from "./components/Activo1/Activo1";
+import Activo2 from "./components/Activo2/Activo2";
+
 import ProtectedRoute from "./routes/ProtectedRoute";
 import ProtectedLayout from "./routes/ProtectedLayout";
-import Engrasadoras from "./pages/Engrasadoras/Engrasadoras";
 
 function App() {
   useEffect(() => {
@@ -37,12 +36,9 @@ function App() {
         <Route element={<ProtectedRoute />}>
           <Route element={<ProtectedLayout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/rtu" element={<Rtu />} />
-            <Route path="/engrasadoras" element={<Engrasadoras />} />
-            <Route path="/engrasadoras/:linea" element={<Engrasadoras />} />
-            <Route path="/radios" element={<Radios />} />
+            <Route path="/activo1" element={<Activo1 />} />
+            <Route path="/activo2" element={<Activo2 />} />
             <Route path="/admin" element={<Admin />} />
-            <Route path="/internos" element={<Internos />} />
           </Route>
         </Route>
       </Routes>
