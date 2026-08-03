@@ -10,7 +10,7 @@
 }
 
 .ingreso {
-  width: 25vw;
+  width: 50vw;
   align-items: center;
   justify-content: center;
   border: none;
@@ -20,6 +20,7 @@
   box-shadow:
     20px 20px 60px #181818,
     -20px -20px 60px #2c2c2c;
+  gap: 1rem;
 }
 
 .ingreso input {

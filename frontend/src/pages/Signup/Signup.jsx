@@ -86,7 +86,7 @@ function Signup() {
     }, 500);
 
     return () => clearTimeout(timeout);
-  }, [email, invalidEmail]);
+  }, [email]);
 
   const handleChange = (e) => {
     setFormData({
@@ -140,55 +140,58 @@ function Signup() {
 
       <form className="ingreso signup" onSubmit={handleSubmit}>
         <h1>Creá tu cuenta</h1>
-        <div className="inputContainer">
-          {emailStatus === "loading" && (
-            <div className="loading">{icons.loading}</div>
-          )}
-          <input
-            type="email"
-            name="email"
-            value={email}
-            onChange={handleChange}
-            placeholder={`usuario@${dominio}`}
-            className={`
+        <div className="signupContent">
+          <div className="inputContainer">
+            {emailStatus === "loading" && (
+              <div className="loading">{icons.loading}</div>
+            )}
+            <input
+              type="email"
+              name="email"
+              value={email}
+              onChange={handleChange}
+              placeholder={`usuario@${dominio}`}
+              className={`
               ${invalidEmail ? "invalid" : ""}
               ${emailStatus === "valid" ? "valid" : ""}
               ${emailStatus === "invalid" ? "invalid" : ""}
             `}
-            autoComplete="off"
-          />
+              autoComplete="off"
+            />
 
-          <p className="aclaracion">{aclaracionMail}</p>
+            <p className="aclaracion">{aclaracionMail}</p>
+          </div>
+
+          <div>
+            <input
+              type="password"
+              name="password"
+              value={password}
+              onChange={handleChange}
+              placeholder="Contraseña"
+              className={invalidPsw ? "invalid" : ""}
+            />
+
+            <p className="aclaracion">
+              Creá tu contraseña (8 caracteres mínimo)
+            </p>
+          </div>
+
+          <div>
+            <input
+              type="password"
+              name="confirmPassword"
+              value={confirmPassword}
+              onChange={handleChange}
+              placeholder="Repetí la contraseña"
+              className={passwordMismatch ? "invalid" : ""}
+            />
+
+            {passwordMismatch && (
+              <p className="aclaracion warn">Las contraseñas no coinciden</p>
+            )}
+          </div>
         </div>
-
-        <div>
-          <input
-            type="password"
-            name="password"
-            value={password}
-            onChange={handleChange}
-            placeholder="Contraseña"
-            className={invalidPsw ? "invalid" : ""}
-          />
-
-          <p className="aclaracion">Creá tu contraseña (8 caracteres mínimo)</p>
-        </div>
-
-        <div>
-          <input
-            type="password"
-            name="confirmPassword"
-            value={confirmPassword}
-            onChange={handleChange}
-            placeholder="Repetí la contraseña"
-            className={passwordMismatch ? "invalid" : ""}
-          />
-
-          {passwordMismatch && (
-            <p className="aclaracion warn">Las contraseñas no coinciden</p>
-          )}
-        </div>
-
         <button
           className="submitButton"
           type="submit"
