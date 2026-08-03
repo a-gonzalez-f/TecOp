@@ -52,7 +52,7 @@ function Login() {
       <form className="ingreso" onSubmit={handleSubmit}>
         <div className="logo">
           <img className="logo-medium" src="/logo.png" alt="logo" />
-          <h1>Tecnologías Digitales</h1>
+          <h1>TecOp</h1>
         </div>
         <div>
           <input
